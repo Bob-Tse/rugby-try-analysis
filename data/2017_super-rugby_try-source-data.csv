@@ -1,0 +1,944 @@
+try_no,round_no,attacking_team,defending_team,attacking_rank,defending_rank,attacking_conf,defending_conf,game_time,try_source,final_source,phases,time_from_source,possession_zone,offloads,passes,total_passes
+1,1,Blues,Rebels,9,18,NZ,AUS,17,Scrum,Multiphase,5,41,A,0,1,1
+2,1,Blues,Rebels,9,18,NZ,AUS,27,Ruck Turnover,Ruck Turnover,0,24,C,5,3,8
+3,1,Blues,Rebels,9,18,NZ,AUS,38,Intercept,Intercept,0,9,B,0,0,0
+4,1,Blues,Rebels,9,18,NZ,AUS,44,Lineout,Lineout,0,10,B,0,0,0
+5,1,Blues,Rebels,9,18,NZ,AUS,51,Kick Receipt,Kick Receipt,1,13,C,0,2,2
+6,1,Blues,Rebels,9,18,NZ,AUS,60,Ruck Turnover,Kick,5,54,D,0,2,2
+7,1,Blues,Rebels,9,18,NZ,AUS,63,Ruck Turnover,Ruck Turnover,0,4,B,0,1,1
+8,1,Brumbies,Crusaders,4,2,AUS,NZ,41,Ruck Turnover,Multiphase,8,81,B,3,19,22
+9,1,Bulls,Stormers,15,3,SA1,SA1,41,Kick Receipt,Kick,5,48,B,2,7,9
+10,1,Bulls,Stormers,15,3,SA1,SA1,52,Lineout,Maul,1,15,A,1,2,3
+11,1,Bulls,Stormers,15,3,SA1,SA1,62,Handling Error,Multiphase,6,44,C,1,7,8
+12,1,Cheetahs,Lions,13,1,SA1,SA2,41,Handling Error,Handling Error,0,7,B,0,0,0
+13,1,Chiefs,Highlanders,6,7,NZ,NZ,9,Intercept,Intercept,0,6,B,0,0,0
+14,1,Chiefs,Highlanders,6,7,NZ,NZ,17,Intercept,Intercept,0,3,B,0,0,0
+15,1,Chiefs,Highlanders,6,7,NZ,NZ,47,Lineout,Lineout,0,4,A,0,1,1
+16,1,Crusaders,Brumbies,2,4,NZ,AUS,2,Kick Receipt,Multiphase,13,103,C,3,17,20
+17,1,Crusaders,Brumbies,2,4,NZ,AUS,32,Scrum,Scrum,2,26,A,1,6,7
+18,1,Crusaders,Brumbies,2,4,NZ,AUS,57,Scrum,Scrum,0,12,A,0,0,0
+19,1,Force,Waratahs,12,16,AUS,AUS,27,Scrum,Scrum,0,14,A,0,0,0
+20,1,Hurricanes,Sunwolves,5,17,NZ,SA1,5,Scrum,Kick,2,38,C,3,5,8
+21,1,Hurricanes,Sunwolves,5,17,NZ,SA1,7,Kick Receipt,Kick,2,29,C,2,3,5
+22,1,Hurricanes,Sunwolves,5,17,NZ,SA1,10,Kick Receipt,Kick Receipt,2,24,B,3,3,6
+23,1,Hurricanes,Sunwolves,5,17,NZ,SA1,14,Lineout,Lineout,0,4,A,0,1,1
+24,1,Hurricanes,Sunwolves,5,17,NZ,SA1,21,Lineout,Lineout,0,13,B,3,2,5
+25,1,Hurricanes,Sunwolves,5,17,NZ,SA1,27,Handling Error,Kick,1,31,D,3,1,4
+26,1,Hurricanes,Sunwolves,5,17,NZ,SA1,36,Scrum,Scrum,3,45,C,1,9,10
+27,1,Hurricanes,Sunwolves,5,17,NZ,SA1,42,Lineout,Lineout,0,9,A,0,3,3
+28,1,Hurricanes,Sunwolves,5,17,NZ,SA1,45,Lineout,Lineout,3,27,B,0,3,3
+29,1,Hurricanes,Sunwolves,5,17,NZ,SA1,48,Intercept,Intercept,0,11,C,0,0,0
+30,1,Hurricanes,Sunwolves,5,17,NZ,SA1,53,Lineout,Maul,1,24,A,0,0,0
+31,1,Hurricanes,Sunwolves,5,17,NZ,SA1,56,Intercept,Intercept,0,14,C,0,1,1
+32,1,Hurricanes,Sunwolves,5,17,NZ,SA1,59,Intercept,Intercept,0,7,B,0,0,0
+33,1,Jaguares,Kings,10,11,SA2,SA2,16,Lineout,Lineout,1,33,D,1,10,11
+34,1,Jaguares,Kings,10,11,SA2,SA2,54,Handling Error,Handling Error,1,24,D,1,1,2
+35,1,Jaguares,Kings,10,11,SA2,SA2,57,Handling Error,Kick,0,14,C,0,1,1
+36,1,Kings,Jaguares,11,10,SA2,SA2,66,Lineout,Lineout,2,22,C,0,5,5
+37,1,Kings,Jaguares,11,10,SA2,SA2,80,Lineout,Maul,0,18,A,0,1,1
+38,1,Lions,Cheetahs,1,13,SA2,SA1,53,Kick Receipt,Kick,1,23,C,1,4,5
+39,1,Lions,Cheetahs,1,13,SA2,SA1,68,Penalty Try,Penalty Try,0,0,A,0,0,0
+40,1,Lions,Cheetahs,1,13,SA2,SA1,76,Kick Receipt,Multiphase,4,41,C,1,8,9
+41,1,Rebels,Blues,18,9,AUS,NZ,7,Kick Receipt,Kick Receipt,2,27,C,2,6,8
+42,1,Rebels,Blues,18,9,AUS,NZ,21,Chargedown,Chargedown,0,2,A,0,0,0
+43,1,Reds,Sharks,14,8,AUS,SA2,33,Scrum,Multiphase,5,31,A,0,2,2
+44,1,Reds,Sharks,14,8,AUS,SA2,49,Scrum,Scrum,0,11,A,0,1,1
+45,1,Reds,Sharks,14,8,AUS,SA2,63,Lineout,Multiphase,8,70,C,1,12,13
+46,1,Reds,Sharks,14,8,AUS,SA2,71,Kick Receipt,Kick Receipt,2,22,B,1,4,5
+47,1,Sharks,Reds,8,14,SA2,AUS,2,Handling Error,Handling Error,0,7,B,2,0,2
+48,1,Sharks,Reds,8,14,SA2,AUS,61,Lineout,Maul,0,8,A,0,0,0
+49,1,Stormers,Bulls,3,15,SA1,SA1,15,Tap Penalty,Tap Penalty,0,2,D,0,1,1
+50,1,Stormers,Bulls,3,15,SA1,SA1,28,Lineout,Kick,1,28,A,1,1,2
+51,1,Stormers,Bulls,3,15,SA1,SA1,39,Scrum,Scrum,3,29,A,0,4,4
+52,1,Stormers,Bulls,3,15,SA1,SA1,49,Ruck Turnover,Multiphase,4,37,B,0,6,6
+53,1,Stormers,Bulls,3,15,SA1,SA1,66,Lineout,Multiphase,9,68,A,0,14,14
+54,1,Stormers,Bulls,3,15,SA1,SA1,81,Tap Penalty,Tap Penalty,0,3,A,0,0,0
+55,1,Sunwolves,Hurricanes,17,5,SA1,NZ,33,Lineout,Lineout,2,32,A,3,2,5
+56,1,Sunwolves,Hurricanes,17,5,SA1,NZ,70,Lineout,Multiphase,5,34,A,1,4,5
+57,1,Sunwolves,Hurricanes,17,5,SA1,NZ,78,Lineout,Lineout,2,17,B,1,5,6
+58,1,Waratahs,Force,16,12,AUS,AUS,44,Tap Penalty,Tap Penalty,0,4,A,0,1,1
+59,2,Blues,Chiefs,9,6,NZ,NZ,61,Lineout,Maul,0,9,A,0,0,0
+60,2,Blues,Chiefs,9,6,NZ,NZ,65,Lineout,Maul,0,17,A,0,1,1
+61,2,Blues,Chiefs,9,6,NZ,NZ,72,Lineout,Multiphase,11,122,A,0,9,9
+62,2,Brumbies,Sharks,4,8,AUS,SA2,2,Lineout,Lineout,2,20,A,1,5,6
+63,2,Brumbies,Sharks,4,8,AUS,SA2,24,Lineout,Maul,0,12,A,0,0,0
+64,2,Brumbies,Sharks,4,8,AUS,SA2,69,Lineout,Lineout,1,13,A,0,4,4
+65,2,Bulls,Cheetahs,15,13,SA1,SA1,7,Tap Penalty,Tap Penalty,1,11,B,0,1,1
+66,2,Bulls,Cheetahs,15,13,SA1,SA1,64,Scrum,Multiphase,12,108,B,1,17,18
+67,2,Bulls,Cheetahs,15,13,SA1,SA1,68,Kick Receipt,Kick,3,48,D,1,9,10
+68,2,Cheetahs,Bulls,13,15,SA1,SA1,3,Kick Receipt,Multiphase,4,51,C,0,9,9
+69,2,Cheetahs,Bulls,13,15,SA1,SA1,10,Scrum,Multiphase,7,70,A,1,10,11
+70,2,Cheetahs,Bulls,13,15,SA1,SA1,30,Lineout,Maul,0,3,A,0,0,0
+71,2,Cheetahs,Bulls,13,15,SA1,SA1,35,Kick Receipt,Multiphase,6,71,C,1,11,12
+72,2,Chiefs,Blues,6,9,NZ,NZ,7,Lineout,Maul,0,10,A,0,0,0
+73,2,Chiefs,Blues,6,9,NZ,NZ,21,Lineout,Multiphase,6,45,B,1,10,11
+74,2,Chiefs,Blues,6,9,NZ,NZ,42,Lineout,Maul,0,15,A,0,0,0
+75,2,Chiefs,Blues,6,9,NZ,NZ,42,Scrum,Scrum,1,15,A,0,0,0
+76,2,Chiefs,Blues,6,9,NZ,NZ,48,Lineout,Lineout,0,10,A,0,3,3
+77,2,Chiefs,Blues,6,9,NZ,NZ,56,Lineout,Lineout,2,37,D,2,7,9
+78,2,Crusaders,Highlanders,2,7,NZ,NZ,54,Scrum,Scrum,0,9,A,0,0,0
+79,2,Crusaders,Highlanders,2,7,NZ,NZ,66,Scrum,Scrum,0,10,A,1,1,2
+80,2,Crusaders,Highlanders,2,7,NZ,NZ,74,Lineout,Multiphase,10,75,B,1,20,21
+81,2,Crusaders,Highlanders,2,7,NZ,NZ,77,Kick Receipt,Kick Receipt,3,46,D,1,14,15
+82,2,Force,Reds,12,14,AUS,AUS,1,Lineout,Lineout,0,12,B,0,4,4
+83,2,Force,Reds,12,14,AUS,AUS,34,Tap Penalty,Tap Penalty,1,14,A,0,0,0
+84,2,Force,Reds,12,14,AUS,AUS,68,Kick Receipt,Multiphase,6,68,C,2,13,15
+85,2,Highlanders,Crusaders,7,2,NZ,NZ,26,Lineout,Lineout,0,5,B,1,0,1
+86,2,Highlanders,Crusaders,7,2,NZ,NZ,35,Scrum,Kick,0,12,C,0,0,0
+87,2,Highlanders,Crusaders,7,2,NZ,NZ,45,Lineout,Kick,0,12,C,1,1,2
+88,2,Hurricanes,Rebels,5,18,NZ,AUS,17,Lineout,Maul,1,23,A,0,2,2
+89,2,Hurricanes,Rebels,5,18,NZ,AUS,20,Scrum,Kick,2,40,C,0,6,6
+90,2,Hurricanes,Rebels,5,18,NZ,AUS,27,Scrum,Scrum,0,11,A,0,1,1
+91,2,Hurricanes,Rebels,5,18,NZ,AUS,32,Scrum,Scrum,1,23,D,0,5,5
+92,2,Hurricanes,Rebels,5,18,NZ,AUS,39,Lineout,Maul,2,42,A,1,5,6
+93,2,Hurricanes,Rebels,5,18,NZ,AUS,42,Kick Receipt,Kick Receipt,0,10,B,0,2,0
+94,2,Hurricanes,Rebels,5,18,NZ,AUS,57,Scrum,Scrum,3,42,B,0,5,5
+95,2,Hurricanes,Rebels,5,18,NZ,AUS,64,Lineout,Lineout,2,38,C,1,10,11
+96,2,Hurricanes,Rebels,5,18,NZ,AUS,71,Lineout,Lineout,1,14,A,1,4,5
+97,2,Hurricanes,Rebels,5,18,NZ,AUS,74,Scrum,Scrum,0,14,B,1,3,4
+98,2,Hurricanes,Rebels,5,18,NZ,AUS,77,Intercept,Intercept,0,11,C,0,0,0
+99,2,Jaguares,Stormers,10,3,SA2,SA1,16,Lineout,Lineout,3,27,A,0,1,1
+100,2,Jaguares,Stormers,10,3,SA2,SA1,51,Lineout,Multiphase,6,49,B,1,6,7
+101,2,Jaguares,Stormers,10,3,SA2,SA1,67,Lineout,Kick,2,29,C,0,5,5
+102,2,Kings,Sunwolves,11,17,SA2,SA1,15,Ruck Turnover,Ruck Turnover,0,12,C,0,1,1
+103,2,Kings,Sunwolves,11,17,SA2,SA1,34,Lineout,Lineout,1,14,B,0,2,2
+104,2,Kings,Sunwolves,11,17,SA2,SA1,65,Lineout,Maul,0,33,B,0,0,0
+105,2,Kings,Sunwolves,11,17,SA2,SA1,78,Ruck Turnover,Ruck Turnover,1,14,B,2,4,6
+106,2,Lions,Waratahs,1,16,SA2,AUS,4,Lineout,Maul,1,16,A,0,0,0
+107,2,Lions,Waratahs,1,16,SA2,AUS,14,Lineout,Maul,0,23,A,0,0,0
+108,2,Lions,Waratahs,1,16,SA2,AUS,20,Lineout,Lineout,2,20,B,0,5,0
+109,2,Lions,Waratahs,1,16,SA2,AUS,23,Kick Receipt,Kick,6,63,C,2,11,13
+110,2,Lions,Waratahs,1,16,SA2,AUS,33,Scrum,Scrum,0,9,A,0,0,0
+111,2,Lions,Waratahs,1,16,SA2,AUS,51,Ruck Turnover,Ruck Turnover,2,24,B,0,7,7
+112,2,Lions,Waratahs,1,16,SA2,AUS,64,Lineout,Multiphase,6,52,C,3,10,13
+113,2,Lions,Waratahs,1,16,SA2,AUS,77,Lineout,Maul,0,10,A,0,0,0
+114,2,Reds,Force,14,12,AUS,AUS,18,Lineout,Maul,1,16,A,0,1,1
+115,2,Reds,Force,14,12,AUS,AUS,21,Handling Error,Handling Error,0,14,D,0,3,3
+116,2,Reds,Force,14,12,AUS,AUS,49,Scrum,Kick,2,27,B,0,5,5
+117,2,Sharks,Brumbies,8,4,SA2,AUS,34,Lineout,Maul,2,11,A,0,2,2
+118,2,Sharks,Brumbies,8,4,SA2,AUS,80,Handling Error,Kick,4,44,B,0,9,9
+119,2,Stormers,Jaguares,3,10,SA1,SA2,22,Kick Receipt,Kick,4,36,C,1,6,7
+120,2,Stormers,Jaguares,3,10,SA1,SA2,26,Kick Receipt,Kick,4,55,C,2,7,9
+121,2,Stormers,Jaguares,3,10,SA1,SA2,64,Scrum,Scrum,0,12,A,0,0,0
+122,2,Stormers,Jaguares,3,10,SA1,SA2,71,Handling Error,Multiphase,5,52,B,3,8,11
+123,2,Sunwolves,Kings,17,11,SA1,SA2,22,Tap Penalty,Tap Penalty,0,5,A,0,1,1
+124,2,Sunwolves,Kings,17,11,SA1,SA2,76,Intercept,Intercept,0,5,B,0,0,0
+125,2,Sunwolves,Kings,17,11,SA1,SA2,81,Tap Penalty,Tap Penalty,3,45,A,1,5,6
+126,2,Waratahs,Lions,16,1,AUS,SA2,6,Lineout,Lineout,2,23,B,0,5,5
+127,2,Waratahs,Lions,16,1,AUS,SA2,18,Tap Penalty,Tap Penalty,1,7,A,1,1,2
+128,2,Waratahs,Lions,16,1,AUS,SA2,37,Tap Penalty,Kick,2,25,A,0,4,4
+129,2,Waratahs,Lions,16,1,AUS,SA2,58,Scrum,Scrum,2,30,A,0,4,4
+130,2,Waratahs,Lions,16,1,AUS,SA2,80,Kick Receipt,Kick Receipt,0,16,C,1,0,1
+131,3,Brumbies,Force,4,12,AUS,AUS,13,Lineout,Multiphase,7,59,A,0,7,7
+132,3,Brumbies,Force,4,12,AUS,AUS,32,Scrum,Multiphase,4,38,B,0,7,7
+133,3,Brumbies,Force,4,12,AUS,AUS,72,Lineout,Multiphase,4,36,A,0,4,4
+134,3,Brumbies,Force,4,12,AUS,AUS,80,Lineout,Maul,0,16,A,0,0,0
+135,3,Cheetahs,Sunwolves,13,17,SA1,SA1,15,Lineout,Maul,1,15,A,0,0,0
+136,3,Cheetahs,Sunwolves,13,17,SA1,SA1,37,Lineout,Lineout,1,14,B,1,1,2
+137,3,Cheetahs,Sunwolves,13,17,SA1,SA1,52,Lineout,Maul,1,12,A,0,1,1
+138,3,Cheetahs,Sunwolves,13,17,SA1,SA1,66,Scrum,Scrum,0,19,A,0,1,1
+139,3,Chiefs,Hurricanes,6,5,NZ,NZ,21,Scrum,Scrum,1,9,A,0,0,0
+140,3,Chiefs,Hurricanes,6,5,NZ,NZ,40,Lineout,Kick,0,24,B,0,0,0
+141,3,Crusaders,Reds,2,14,NZ,AUS,27,Lineout,Kick,2,28,B,0,4,4
+142,3,Crusaders,Reds,2,14,NZ,AUS,62,Kick Receipt,Kick Receipt,1,19,C,1,3,4
+143,3,Crusaders,Reds,2,14,NZ,AUS,75,Scrum,Scrum,3,33,A,0,4,4
+144,3,Force,Brumbies,12,4,AUS,AUS,40,Lineout,Maul,0,11,A,0,0,0
+145,3,Force,Brumbies,12,4,AUS,AUS,41,Lineout,Multiphase,14,108,B,2,20,22
+146,3,Highlanders,Blues,7,9,NZ,NZ,16,Handling Error,Kick,0,12,C,0,3,3
+147,3,Hurricanes,Chiefs,5,6,NZ,NZ,64,Lineout,Maul,0,30,A,0,0,0
+148,3,Hurricanes,Chiefs,5,6,NZ,NZ,78,Lineout,Maul,0,34,A,0,5,5
+149,3,Jaguares,Lions,10,1,SA2,SA2,5,Lineout,Multiphase,5,48,B,1,13,14
+150,3,Jaguares,Lions,10,1,SA2,SA2,17,Tap Penalty,Multiphase,13,100,B,1,22,23
+151,3,Jaguares,Lions,10,1,SA2,SA2,53,Scrum,Multiphase,7,48,A,0,3,3
+152,3,Jaguares,Lions,10,1,SA2,SA2,57,Lineout,Multiphase,8,86,C,2,19,21
+153,3,Kings,Stormers,11,3,SA2,SA1,56,Lineout,Kick,4,41,B,1,7,8
+154,3,Lions,Jaguares,1,10,SA2,SA2,12,Lineout,Lineout,3,27,A,0,3,3
+155,3,Lions,Jaguares,1,10,SA2,SA2,47,Lineout,Maul,0,5,A,0,0,0
+156,3,Lions,Jaguares,1,10,SA2,SA2,72,Lineout,Multiphase,10,115,A,3,20,23
+157,3,Lions,Jaguares,1,10,SA2,SA2,79,Lineout,Maul,0,33,A,0,0,0
+158,3,Reds,Crusaders,14,2,AUS,NZ,11,Lineout,Maul,3,31,A,0,4,4
+159,3,Reds,Crusaders,14,2,AUS,NZ,23,Tap Penalty,Tap Penalty,3,41,C,1,6,7
+160,3,Sharks,Waratahs,8,16,SA2,AUS,2,Kick Receipt,Multiphase,9,74,B,3,11,14
+161,3,Sharks,Waratahs,8,16,SA2,AUS,21,Intercept,Intercept,0,7,C,0,0,0
+162,3,Sharks,Waratahs,8,16,SA2,AUS,40,Handling Error,Handling Error,0,8,C,0,0,0
+163,3,Stormers,Kings,3,11,SA1,SA2,15,Kick Receipt,Kick Receipt,1,25,C,0,3,3
+164,3,Stormers,Kings,3,11,SA1,SA2,30,Kick Receipt,Kick Receipt,3,30,D,2,5,7
+165,3,Stormers,Kings,3,11,SA1,SA2,36,Lineout,Multiphase,9,67,B,1,10,11
+166,3,Stormers,Kings,3,11,SA1,SA2,44,Kick Receipt,Multiphase,7,57,C,0,10,10
+167,3,Stormers,Kings,3,11,SA1,SA2,76,Handling Error,Handling Error,1,16,B,1,3,4
+168,3,Stormers,Kings,3,11,SA1,SA2,80,Tap Penalty,Tap Penalty,1,14,B,2,2,4
+169,3,Sunwolves,Cheetahs,17,13,SA1,SA1,1,Kick Receipt,Kick Receipt,2,19,B,1,3,4
+170,3,Sunwolves,Cheetahs,17,13,SA1,SA1,25,Lineout,Multiphase,9,72,B,1,16,17
+171,3,Sunwolves,Cheetahs,17,13,SA1,SA1,55,Kick Receipt,Multiphase,6,62,C,3,12,15
+172,3,Sunwolves,Cheetahs,17,13,SA1,SA1,62,Lineout,Lineout,0,8,B,1,0,1
+173,3,Waratahs,Sharks,16,8,AUS,SA2,29,Lineout,Kick,2,30,A,0,2,2
+174,3,Waratahs,Sharks,16,8,AUS,SA2,43,Chargedown,Chargedown,3,22,B,2,4,6
+175,4,Blues,Crusaders,9,2,NZ,NZ,10,Kick Receipt,Kick Receipt,0,26,C,3,3,6
+176,4,Blues,Crusaders,9,2,NZ,NZ,31,Lineout,Multiphase,5,42,B,1,7,8
+177,4,Blues,Crusaders,9,2,NZ,NZ,35,Kick Receipt,Multiphase,8,84,C,2,9,11
+178,4,Brumbies,Waratahs,4,16,AUS,AUS,18,Lineout,Maul,2,20,A,0,2,2
+179,4,Brumbies,Waratahs,4,16,AUS,AUS,58,Lineout,Maul,0,13,A,0,0,0
+180,4,Brumbies,Waratahs,4,16,AUS,AUS,61,Kick Receipt,Kick,2,27,C,0,1,1
+181,4,Brumbies,Waratahs,4,16,AUS,AUS,74,Lineout,Maul,0,31,B,0,2,2
+182,4,Bulls,Sunwolves,15,17,SA1,SA1,12,Handling Error,Handling Error,0,4,A,0,1,1
+183,4,Bulls,Sunwolves,15,17,SA1,SA1,30,Lineout,Maul,0,10,A,0,0,0
+184,4,Bulls,Sunwolves,15,17,SA1,SA1,44,Tap Penalty,Tap Penalty,1,10,A,0,1,1
+185,4,Bulls,Sunwolves,15,17,SA1,SA1,65,Lineout,Lineout,0,9,B,0,1,1
+186,4,Cheetahs,Jaguares,13,10,SA1,SA2,26,Lineout,Maul,3,39,A,0,4,0
+187,4,Cheetahs,Jaguares,13,10,SA1,SA2,73,Lineout,Maul,0,11,A,0,0,0
+188,4,Chiefs,Rebels,6,18,NZ,AUS,22,Lineout,Maul,1,30,B,2,1,3
+189,4,Chiefs,Rebels,6,18,NZ,AUS,66,Lineout,Maul,1,25,A,0,0,0
+190,4,Chiefs,Rebels,6,18,NZ,AUS,77,Lineout,Lineout,1,14,A,0,1,1
+191,4,Chiefs,Rebels,6,18,NZ,AUS,80,Kick Receipt,Kick Receipt,2,37,C,2,7,9
+192,4,Crusaders,Blues,2,9,NZ,NZ,24,Lineout,Multiphase,6,52,B,0,12,12
+193,4,Crusaders,Blues,2,9,NZ,NZ,51,Lineout,Maul,0,13,A,0,0,0
+194,4,Crusaders,Blues,2,9,NZ,NZ,57,Lineout,Maul,0,15,A,0,0,0
+195,4,Crusaders,Blues,2,9,NZ,NZ,70,Kick Receipt,Multiphase,12,85,C,0,16,16
+196,4,Crusaders,Blues,2,9,NZ,NZ,79,Scrum,Scrum,2,20,A,0,2,2
+197,4,Highlanders,Hurricanes,7,5,NZ,NZ,32,Scrum,Scrum,0,7,A,0,1,1
+198,4,Highlanders,Hurricanes,7,5,NZ,NZ,45,Lineout,Multiphase,8,49,A,0,9,9
+199,4,Hurricanes,Highlanders,5,7,NZ,NZ,11,Lineout,Maul,0,19,A,0,0,0
+200,4,Hurricanes,Highlanders,5,7,NZ,NZ,36,Kick Receipt,Multiphase,8,46,B,0,3,3
+201,4,Hurricanes,Highlanders,5,7,NZ,NZ,42,Lineout,Kick,2,27,C,1,1,2
+202,4,Hurricanes,Highlanders,5,7,NZ,NZ,51,Scrum,Scrum,0,9,B,0,1,1
+203,4,Hurricanes,Highlanders,5,7,NZ,NZ,62,Scrum,Scrum,3,35,B,1,11,12
+204,4,Hurricanes,Highlanders,5,7,NZ,NZ,68,Handling Error,Kick,2,28,C,1,5,6
+205,4,Hurricanes,Highlanders,5,7,NZ,NZ,79,Lineout,Kick,7,42,A,0,3,3
+206,4,Jaguares,Cheetahs,10,13,SA2,SA1,6,Kick Receipt,Multiphase,5,57,C,5,8,13
+207,4,Jaguares,Cheetahs,10,13,SA2,SA1,21,Lineout,Multiphase,4,31,A,0,3,3
+208,4,Jaguares,Cheetahs,10,13,SA2,SA1,28,Kick Receipt,Multiphase,4,45,C,4,10,14
+209,4,Jaguares,Cheetahs,10,13,SA2,SA1,76,Lineout,Kick,3,31,C,1,2,1
+210,4,Jaguares,Cheetahs,10,13,SA2,SA1,80,Lineout,Maul,0,13,A,0,0,0
+211,4,Kings,Sharks,11,8,SA2,SA2,20,Chargedown,Chargedown,0,4,A,0,0,0
+212,4,Kings,Sharks,11,8,SA2,SA2,32,Intercept,Intercept,0,6,B,0,0,0
+213,4,Lions,Reds,1,14,SA2,AUS,18,Lineout,Kick,3,42,B,0,10,10
+214,4,Lions,Reds,1,14,SA2,AUS,38,Lineout,Maul,0,5,A,0,0,0
+215,4,Lions,Reds,1,14,SA2,AUS,45,Tap Penalty,Tap Penalty,2,21,A,0,6,6
+216,4,Lions,Reds,1,14,SA2,AUS,50,Scrum,Scrum,2,22,A,0,4,4
+217,4,Lions,Reds,1,14,SA2,AUS,62,Scrum,Scrum,0,10,A,0,3,3
+218,4,Lions,Reds,1,14,SA2,AUS,65,Kick Receipt,Kick,0,13,C,0,0,0
+219,4,Lions,Reds,1,14,SA2,AUS,72,Lineout,Maul,3,42,A,0,4,4
+220,4,Rebels,Chiefs,18,6,AUS,NZ,43,Lineout,Multiphase,8,61,B,0,8,8
+221,4,Reds,Lions,14,1,AUS,SA2,68,Scrum,Scrum,3,41,B,0,7,7
+222,4,Reds,Lions,14,1,AUS,SA2,77,Tap Penalty,Tap Penalty,1,13,A,1,3,4
+223,4,Sharks,Kings,8,11,SA2,SA2,27,Lineout,Maul,0,9,A,0,0,0
+224,4,Sharks,Kings,8,11,SA2,SA2,65,Tap Penalty,Tap Penalty,1,16,A,0,4,4
+225,4,Sunwolves,Bulls,17,15,SA1,SA1,40,Kick Receipt,Kick Receipt,0,16,C,1,1,2
+226,4,Sunwolves,Bulls,17,15,SA1,SA1,70,Scrum,Multiphase,8,57,A,0,12,12
+227,4,Waratahs,Brumbies,16,4,AUS,AUS,9,Lineout,Multiphase,5,38,A,0,2,2
+228,4,Waratahs,Brumbies,16,4,AUS,AUS,63,Kick Receipt,Kick Receipt,2,25,C,0,6,0
+229,5,Blues,Bulls,9,15,NZ,SA1,3,Lineout,Lineout,3,31,C,3,4,7
+230,5,Blues,Bulls,9,15,NZ,SA1,46,Lineout,Multiphase,7,71,B,3,9,12
+231,5,Blues,Bulls,9,15,NZ,SA1,55,Scrum,Kick,3,30,A,0,4,4
+232,5,Blues,Bulls,9,15,NZ,SA1,67,Lineout,Lineout,3,28,A,1,3,4
+233,5,Blues,Bulls,9,15,NZ,SA1,72,Scrum,Multiphase,8,68,C,0,16,16
+234,5,Blues,Bulls,9,15,NZ,SA1,74,Kick Receipt,Kick Receipt,1,22,C,2,5,7
+235,5,Brumbies,Highlanders,4,7,AUS,NZ,26,Lineout,Lineout,0,7,A,0,0,0
+236,5,Bulls,Blues,15,9,SA1,NZ,17,Lineout,Maul,2,40,A,0,1,1
+237,5,Bulls,Blues,15,9,SA1,NZ,80,Tap Penalty,Tap Penalty,0,2,A,0,0,0
+238,5,Cheetahs,Sharks,13,8,SA1,SA2,29,Scrum,Scrum,1,14,A,0,2,2
+239,5,Cheetahs,Sharks,13,8,SA1,SA2,40,Scrum,Scrum,0,16,A,0,2,2
+240,5,Cheetahs,Sharks,13,8,SA1,SA2,79,Kick Receipt,Kick Receipt,3,39,C,1,8,9
+241,5,Crusaders,Force,2,12,NZ,AUS,3,Kick Receipt,Kick Receipt,1,16,C,0,1,1
+242,5,Crusaders,Force,2,12,NZ,AUS,16,Scrum,Multiphase,6,49,A,0,7,7
+243,5,Crusaders,Force,2,12,NZ,AUS,22,Lineout,Maul,3,38,A,0,2,2
+244,5,Crusaders,Force,2,12,NZ,AUS,27,Ruck Turnover,Ruck Turnover,0,0,C,0,0,0
+245,5,Crusaders,Force,2,12,NZ,AUS,50,Lineout,Maul,0,19,A,0,0,0
+246,5,Crusaders,Force,2,12,NZ,AUS,72,Lineout,Maul,2,27,A,1,3,4
+247,5,Crusaders,Force,2,12,NZ,AUS,80,Lineout,Maul,0,16,A,0,0,0
+248,5,Force,Crusaders,12,2,AUS,NZ,18,Intercept,Intercept,0,7,C,0,0,0
+249,5,Force,Crusaders,12,2,AUS,NZ,40,Scrum,Multiphase,5,41,A,1,5,6
+250,5,Highlanders,Brumbies,7,4,NZ,AUS,38,Scrum,Scrum,0,9,A,0,2,2
+251,5,Highlanders,Brumbies,7,4,NZ,AUS,73,Scrum,Scrum,1,21,A,0,2,2
+252,5,Jaguares,Reds,10,14,SA2,AUS,20,Scrum,Scrum,0,10,A,0,1,1
+253,5,Jaguares,Reds,10,14,SA2,AUS,27,Kick Receipt,Kick Receipt,0,17,C,1,3,4
+254,5,Jaguares,Reds,10,14,SA2,AUS,49,Lineout,Maul,0,37,B,1,1,2
+255,5,Kings,Lions,11,1,SA2,SA2,1,Chargedown,Chargedown,0,5,A,0,0,0
+256,5,Kings,Lions,11,1,SA2,SA2,18,Ruck Turnover,Ruck Turnover,0,12,C,0,1,1
+257,5,Kings,Lions,11,1,SA2,SA2,43,Kick Receipt,Kick Receipt,1,25,B,2,4,6
+258,5,Lions,Kings,1,11,SA2,SA2,3,Intercept,Intercept,0,0,A,0,0,0
+259,5,Lions,Kings,1,11,SA2,SA2,11,Lineout,Maul,0,10,A,0,0,0
+260,5,Lions,Kings,1,11,SA2,SA2,15,Tap Penalty,Tap Penalty,1,9,A,1,2,3
+261,5,Lions,Kings,1,11,SA2,SA2,24,Tap Penalty,Multiphase,7,51,B,1,10,11
+262,5,Lions,Kings,1,11,SA2,SA2,33,Lineout,Maul,0,8,A,0,0,0
+263,5,Lions,Kings,1,11,SA2,SA2,76,Lineout,Lineout,0,7,B,0,2,2
+264,5,Rebels,Waratahs,18,16,AUS,AUS,18,Kick Receipt,Kick Receipt,3,40,B,2,6,8
+265,5,Rebels,Waratahs,18,16,AUS,AUS,30,Kick Receipt,Kick Receipt,0,13,C,1,2,3
+266,5,Rebels,Waratahs,18,16,AUS,AUS,36,Lineout,Multiphase,6,39,A,1,4,5
+267,5,Reds,Jaguares,14,10,AUS,SA2,57,Lineout,Maul,2,37,A,3,3,6
+268,5,Sharks,Cheetahs,8,13,SA2,SA1,6,Lineout,Multiphase,6,59,B,1,11,12
+269,5,Sharks,Cheetahs,8,13,SA2,SA1,25,Lineout,Multiphase,12,75,A,0,8,8
+270,5,Sharks,Cheetahs,8,13,SA2,SA1,47,Handling Error,Handling Error,0,8,A,0,0,0
+271,5,Sharks,Cheetahs,8,13,SA2,SA1,67,Lineout,Maul,0,6,A,0,0,0
+272,5,Stormers,Sunwolves,3,17,SA1,SA1,17,Kick Receipt,Kick Receipt,2,29,D,2,3,5
+273,5,Stormers,Sunwolves,3,17,SA1,SA1,33,Scrum,Multiphase,22,147,B,1,5,6
+274,5,Stormers,Sunwolves,3,17,SA1,SA1,52,Scrum,Multiphase,4,44,A,0,3,3
+275,5,Stormers,Sunwolves,3,17,SA1,SA1,60,Scrum,Scrum,2,29,C,1,6,7
+276,5,Stormers,Sunwolves,3,17,SA1,SA1,76,Lineout,Multiphase,8,54,A,0,0,0
+277,5,Stormers,Sunwolves,3,17,SA1,SA1,81,Scrum,Kick,2,23,A,0,3,3
+278,5,Sunwolves,Stormers,17,3,SA1,SA1,6,Handling Error,Handling Error,1,20,B,0,5,5
+279,5,Sunwolves,Stormers,17,3,SA1,SA1,21,Handling Error,Handling Error,3,27,B,1,3,4
+280,5,Sunwolves,Stormers,17,3,SA1,SA1,25,Scrum,Scrum,3,37,B,2,9,11
+281,5,Sunwolves,Stormers,17,3,SA1,SA1,42,Scrum,Scrum,0,14,C,1,4,5
+282,5,Waratahs,Rebels,16,18,AUS,AUS,49,Lineout,Lineout,3,34,B,1,9,10
+283,5,Waratahs,Rebels,16,18,AUS,AUS,59,Scrum,Scrum,0,10,A,0,3,3
+284,5,Waratahs,Rebels,16,18,AUS,AUS,78,Lineout,Lineout,2,16,A,0,2,2
+285,5,Waratahs,Rebels,16,18,AUS,AUS,80,Ruck Turnover,Ruck Turnover,5,61,C,2,16,18
+286,6,Blues,Force,9,12,NZ,AUS,35,Lineout,Maul,0,6,A,0,0,0
+287,6,Blues,Force,9,12,NZ,AUS,38,Kick Receipt,Kick Receipt,2,33,C,0,4,4
+288,6,Blues,Force,9,12,NZ,AUS,64,Lineout,Lineout,0,20,C,2,4,6
+289,6,Blues,Force,9,12,NZ,AUS,73,Intercept,Intercept,3,44,D,2,4,6
+290,6,Cheetahs,Stormers,13,3,SA1,SA1,45,Lineout,Maul,0,12,A,0,0,0
+291,6,Chiefs,Bulls,6,15,NZ,SA1,51,Lineout,Kick,0,12,B,0,3,3
+292,6,Chiefs,Bulls,6,15,NZ,SA1,71,Scrum,Kick,0,10,A,0,1,1
+293,6,Chiefs,Bulls,6,15,NZ,SA1,78,Lineout,Lineout,2,24,A,0,7,7
+294,6,Crusaders,Waratahs,2,16,NZ,AUS,10,Lineout,Lineout,0,14,B,1,3,4
+295,6,Crusaders,Waratahs,2,16,NZ,AUS,13,Lineout,Lineout,0,9,B,0,1,1
+296,6,Crusaders,Waratahs,2,16,NZ,AUS,34,Kick Receipt,Kick Receipt,2,35,C,3,6,9
+297,6,Crusaders,Waratahs,2,16,NZ,AUS,42,Kick Receipt,Kick Receipt,0,17,C,2,2,4
+298,6,Crusaders,Waratahs,2,16,NZ,AUS,73,Scrum,Scrum,3,37,C,2,7,9
+299,6,Crusaders,Waratahs,2,16,NZ,AUS,77,Lineout,Maul,2,22,A,0,2,2
+300,6,Force,Blues,12,9,AUS,NZ,19,Intercept,Multiphase,6,41,B,0,4,4
+301,6,Force,Blues,12,9,AUS,NZ,78,Lineout,Lineout,2,36,D,1,6,7
+302,6,Highlanders,Rebels,7,18,NZ,AUS,12,Scrum,Scrum,0,12,A,1,2,3
+303,6,Highlanders,Rebels,7,18,NZ,AUS,17,Lineout,Multiphase,13,91,B,3,15,18
+304,6,Highlanders,Rebels,7,18,NZ,AUS,58,Tap Penalty,Tap Penalty,0,2,A,0,0,0
+305,6,Highlanders,Rebels,7,18,NZ,AUS,62,Lineout,Multiphase,4,44,B,0,9,9
+306,6,Highlanders,Rebels,7,18,NZ,AUS,71,Intercept,Intercept,0,7,B,0,0,0
+307,6,Highlanders,Rebels,7,18,NZ,AUS,80,Kick Receipt,Kick Receipt,2,25,B,1,3,4
+308,6,Hurricanes,Reds,5,14,NZ,AUS,14,Lineout,Multiphase,6,49,B,2,12,14
+309,6,Hurricanes,Reds,5,14,NZ,AUS,18,Intercept,Intercept,0,9,C,0,0,0
+310,6,Hurricanes,Reds,5,14,NZ,AUS,43,Kick Receipt,Kick Receipt,1,36,C,2,6,8
+311,6,Hurricanes,Reds,5,14,NZ,AUS,73,Kick Receipt,Kick Receipt,2,28,B,2,4,6
+312,6,Hurricanes,Reds,5,14,NZ,AUS,79,Handling Error,Handling Error,2,15,A,0,3,3
+313,6,Lions,Sharks,1,8,SA2,SA2,40,Lineout,Maul,0,9,A,0,0,0
+314,6,Lions,Sharks,1,8,SA2,SA2,40,Scrum,Scrum,0,12,B,0,2,2
+315,6,Lions,Sharks,1,8,SA2,SA2,64,Kick Receipt,Kick Receipt,0,12,C,1,1,2
+316,6,Rebels,Highlanders,18,7,AUS,NZ,52,Lineout,Multiphase,7,55,B,1,9,10
+317,6,Rebels,Highlanders,18,7,AUS,NZ,78,Scrum,Scrum,3,27,A,0,3,3
+318,6,Reds,Hurricanes,14,5,AUS,NZ,28,Scrum,Scrum,0,15,A,2,2,4
+319,6,Reds,Hurricanes,14,5,AUS,NZ,33,Lineout,Multiphase,9,102,C,8,5,13
+320,6,Sharks,Lions,8,1,SA2,SA2,8,Lineout,Lineout,1,20,B,0,5,5
+321,6,Sharks,Lions,8,1,SA2,SA2,43,Lineout,Lineout,2,36,B,2,9,11
+322,6,Stormers,Cheetahs,3,13,SA1,SA1,16,Handling Error,Handling Error,1,18,B,2,2,4
+323,6,Stormers,Cheetahs,3,13,SA1,SA1,22,Kick Receipt,Multiphase,7,61,B,1,13,14
+324,6,Stormers,Cheetahs,3,13,SA1,SA1,37,Scrum,Scrum,0,19,B,0,4,4
+325,6,Stormers,Cheetahs,3,13,SA1,SA1,42,Scrum,Scrum,0,21,A,1,1,2
+326,6,Stormers,Cheetahs,3,13,SA1,SA1,53,Kick Receipt,Kick,1,21,C,1,2,3
+327,6,Stormers,Cheetahs,3,13,SA1,SA1,59,Lineout,Multiphase,8,62,A,0,0,0
+328,6,Stormers,Cheetahs,3,13,SA1,SA1,64,Chargedown,Multiphase,6,58,B,5,10,15
+329,6,Stormers,Cheetahs,3,13,SA1,SA1,78,Ruck Turnover,Multiphase,4,36,C,2,3,5
+330,6,Waratahs,Crusaders,16,2,AUS,NZ,22,Scrum,Scrum,1,12,A,0,1,1
+331,6,Waratahs,Crusaders,16,2,AUS,NZ,49,Lineout,Lineout,0,10,B,0,2,2
+332,6,Waratahs,Crusaders,16,2,AUS,NZ,52,Lineout,Lineout,2,22,B,0,5,5
+333,7,Blues,Highlanders,9,7,NZ,NZ,12,Kick Receipt,Multiphase,4,41,C,0,6,6
+334,7,Blues,Highlanders,9,7,NZ,NZ,36,Lineout,Multiphase,6,51,A,1,3,4
+335,7,Brumbies,Reds,4,14,AUS,AUS,27,Lineout,Multiphase,6,42,A,0,7,7
+336,7,Brumbies,Reds,4,14,AUS,AUS,42,Lineout,Maul,0,14,A,0,0,0
+337,7,Brumbies,Reds,4,14,AUS,AUS,44,Kick Receipt,Kick Receipt,1,19,C,1,2,3
+338,7,Brumbies,Reds,4,14,AUS,AUS,53,Scrum,Scrum,0,14,A,0,0,0
+339,7,Brumbies,Reds,4,14,AUS,AUS,72,Scrum,Multiphase,6,48,A,1,5,6
+340,7,Brumbies,Reds,4,14,AUS,AUS,79,Kick Receipt,Multiphase,7,76,B,2,18,20
+341,7,Bulls,Sunwolves,15,17,SA1,SA1,13,Lineout,Lineout,0,10,B,0,1,1
+342,7,Bulls,Sunwolves,15,17,SA1,SA1,64,Handling Error,Handling Error,0,9,B,0,2,2
+343,7,Chiefs,Stormers,6,3,NZ,SA1,14,Kick Receipt,Kick Receipt,0,22,D,3,5,8
+344,7,Chiefs,Stormers,6,3,NZ,SA1,28,Kick Receipt,Kick Receipt,0,14,C,0,1,1
+345,7,Chiefs,Stormers,6,3,NZ,SA1,57,Lineout,Multiphase,4,32,A,0,6,6
+346,7,Force,Kings,12,11,AUS,SA2,9,Kick Receipt,Kick Receipt,3,45,C,4,9,13
+347,7,Force,Kings,12,11,AUS,SA2,40,Scrum,Multiphase,4,31,A,0,6,6
+348,7,Force,Kings,12,11,AUS,SA2,45,Kick Receipt,Multiphase,21,151,C,0,22,22
+349,7,Force,Kings,12,11,AUS,SA2,65,Chargedown,Kick,0,5,A,0,0,0
+350,7,Force,Kings,12,11,AUS,SA2,72,Scrum,Scrum,0,9,A,0,0,0
+351,7,Force,Jaguares,12,10,AUS,SA2,75,Lineout,Maul,0,7,A,0,0,0
+352,7,Highlanders,Blues,7,9,NZ,NZ,27,Handling Error,Multiphase,4,44,C,3,10,13
+353,7,Highlanders,Blues,7,9,NZ,NZ,46,Scrum,Scrum,2,15,A,0,3,3
+354,7,Hurricanes,Waratahs,5,16,NZ,AUS,2,Lineout,Lineout,1,17,B,0,2,2
+355,7,Hurricanes,Waratahs,5,16,NZ,AUS,7,Intercept,Intercept,0,9,B,1,0,1
+356,7,Hurricanes,Waratahs,5,16,NZ,AUS,11,Lineout,Maul,0,27,A,0,2,2
+357,7,Hurricanes,Waratahs,5,16,NZ,AUS,31,Scrum,Scrum,1,15,A,0,2,2
+358,7,Hurricanes,Waratahs,5,16,NZ,AUS,36,Intercept,Intercept,0,0,A,0,0,0
+359,7,Hurricanes,Waratahs,5,16,NZ,AUS,54,Kick Receipt,Kick Receipt,3,37,C,1,3,4
+360,7,Jaguares,Sharks,10,8,SA2,SA2,61,Tap Penalty,Tap Penalty,1,21,B,2,1,3
+361,7,Kings,Force,11,12,SA2,AUS,27,Lineout,Maul,0,12,A,0,0,0
+362,7,Kings,Force,11,12,SA2,AUS,41,Kick Receipt,Kick Receipt,1,22,C,0,2,2
+363,7,Kings,Force,11,12,SA2,AUS,43,Kick Receipt,Kick Receipt,0,12,C,1,1,2
+364,7,Kings,Force,11,12,SA2,AUS,50,Intercept,Kick,1,10,A,0,1,1
+365,7,Kings,Force,11,12,SA2,AUS,60,Scrum,Kick,12,89,B,1,13,14
+366,7,Kings,Force,11,12,SA2,AUS,64,Intercept,Intercept,0,10,B,0,0,0
+367,7,Reds,Brumbies,14,4,AUS,AUS,7,Lineout,Lineout,2,16,A,1,2,3
+368,7,Sharks,Jaguares,8,10,SA2,SA2,6,Handling Error,Handling Error,0,9,C,0,0,0
+369,7,Sharks,Jaguares,8,10,SA2,SA2,43,Lineout,Maul,2,19,A,0,2,2
+370,7,Stormers,Chiefs,3,6,SA1,NZ,3,Lineout,Multiphase,4,51,B,0,3,3
+371,7,Stormers,Chiefs,3,6,SA1,NZ,18,Scrum,Multiphase,13,113,B,2,16,18
+372,7,Stormers,Chiefs,3,6,SA1,NZ,42,Scrum,Scrum,0,14,A,0,1,1
+373,7,Stormers,Chiefs,3,6,SA1,NZ,51,Intercept,Kick,0,13,D,0,1,1
+374,7,Sunwolves,Bulls,17,15,SA1,SA1,6,Kick Receipt,Kick,2,29,C,0,5,5
+375,7,Sunwolves,Bulls,17,15,SA1,SA1,69,Scrum,Multiphase,5,47,A,0,6,6
+376,7,Waratahs,Hurricanes,16,5,AUS,NZ,18,Tap Penalty,Tap Penalty,0,9,A,2,2,4
+377,7,Waratahs,Hurricanes,16,5,AUS,NZ,42,Kick Receipt,Kick Receipt,0,12,C,2,1,3
+378,7,Waratahs,Hurricanes,16,5,AUS,NZ,47,Lineout,Maul,1,20,A,0,1,1
+379,7,Waratahs,Hurricanes,16,5,AUS,NZ,71,Scrum,Scrum,0,8,A,0,3,3
+380,8,Blues,Hurricanes,9,5,NZ,NZ,5,Ruck Turnover,Ruck Turnover,0,5,B,1,1,2
+381,8,Blues,Hurricanes,9,5,NZ,NZ,19,Kick Receipt,Multiphase,4,45,C,1,7,8
+382,8,Blues,Hurricanes,9,5,NZ,NZ,65,Lineout,Multiphase,5,45,A,0,3,3
+383,8,Brumbies,Rebels,4,18,AUS,AUS,20,Kick Receipt,Kick Receipt,2,34,C,1,5,6
+384,8,Brumbies,Rebels,4,18,AUS,AUS,33,Scrum,Scrum,0,13,A,0,0,0
+385,8,Brumbies,Rebels,4,18,AUS,AUS,44,Scrum,Scrum,0,8,A,0,1,1
+386,8,Bulls,Jaguares,15,10,SA1,SA2,26,Handling Error,Handling Error,0,6,A,1,1,2
+387,8,Bulls,Jaguares,15,10,SA1,SA2,63,Lineout,Kick,4,43,B,1,6,7
+388,8,Cheetahs,Chiefs,13,6,SA1,NZ,11,Lineout,Maul,2,31,A,0,3,3
+389,8,Cheetahs,Chiefs,13,6,SA1,NZ,16,Lineout,Maul,0,19,A,0,0,0
+390,8,Cheetahs,Chiefs,13,6,SA1,NZ,20,Kick Receipt,Multiphase,8,52,B,1,8,9
+391,8,Chiefs,Cheetahs,6,13,NZ,SA1,28,Lineout,Maul,0,20,A,0,2,2
+392,8,Chiefs,Cheetahs,6,13,NZ,SA1,40,Lineout,Lineout,1,6,A,0,0,0
+393,8,Chiefs,Cheetahs,6,13,NZ,SA1,54,Lineout,Lineout,1,22,C,1,5,6
+394,8,Chiefs,Cheetahs,6,13,NZ,SA1,58,Kick Receipt,Multiphase,9,106,B,4,25,29
+395,8,Chiefs,Cheetahs,6,13,NZ,SA1,73,Handling Error,Kick,1,13,B,0,1,1
+396,8,Chiefs,Cheetahs,6,13,NZ,SA1,77,Handling Error,Handling Error,0,0,A,0,0,0
+397,8,Crusaders,Sunwolves,2,17,NZ,SA1,12,Lineout,Lineout,1,7,A,0,0,0
+398,8,Crusaders,Sunwolves,2,17,NZ,SA1,22,Lineout,Multiphase,12,84,A,0,10,10
+399,8,Crusaders,Sunwolves,2,17,NZ,SA1,28,Chargedown,Chargedown,3,28,B,1,5,6
+400,8,Crusaders,Sunwolves,2,17,NZ,SA1,31,Ruck Turnover,Multiphase,5,32,A,0,7,7
+401,8,Crusaders,Sunwolves,2,17,NZ,SA1,38,Kick Receipt,Kick Receipt,1,18,B,0,4,4
+402,8,Crusaders,Sunwolves,2,17,NZ,SA1,45,Tap Penalty,Multiphase,7,58,B,0,10,10
+403,8,Crusaders,Sunwolves,2,17,NZ,SA1,52,Lineout,Kick,2,33,B,0,2,2
+404,8,Crusaders,Sunwolves,2,17,NZ,SA1,59,Scrum,Scrum,1,9,A,0,0,0
+405,8,Hurricanes,Blues,5,9,NZ,NZ,3,Scrum,Scrum,2,24,A,0,1,1
+406,8,Hurricanes,Blues,5,9,NZ,NZ,16,Scrum,Scrum,0,17,C,0,2,2
+407,8,Hurricanes,Blues,5,9,NZ,NZ,28,Handling Error,Kick,0,8,C,0,0,0
+408,8,Hurricanes,Blues,5,9,NZ,NZ,71,Handling Error,Multiphase,15,129,C,2,14,16
+409,8,Jaguares,Bulls,10,15,SA2,SA1,50,Lineout,Multiphase,7,50,A,1,2,3
+410,8,Kings,Reds,11,14,SA2,AUS,22,Ruck Turnover,Kick,5,44,B,1,12,13
+411,8,Kings,Reds,11,14,SA2,AUS,51,Lineout,Lineout,3,25,B,0,6,6
+412,8,Kings,Reds,11,14,SA2,AUS,66,Intercept,Intercept,1,22,B,1,5,6
+413,8,Kings,Reds,11,14,SA2,AUS,72,Lineout,Multiphase,5,59,D,2,13,15
+414,8,Kings,Reds,11,14,SA2,AUS,75,Kick Receipt,Kick Receipt,1,23,C,0,6,6
+415,8,Lions,Stormers,1,3,SA2,SA1,3,Lineout,Maul,0,16,A,0,0,0
+416,8,Lions,Stormers,1,3,SA2,SA1,14,Scrum,Multiphase,6,57,B,0,7,7
+417,8,Lions,Stormers,1,3,SA2,SA1,37,Lineout,Multiphase,6,39,A,0,7,7
+418,8,Lions,Stormers,1,3,SA2,SA1,71,Kick Receipt,Multiphase,9,76,B,3,14,17
+419,8,Rebels,Brumbies,18,4,AUS,AUS,13,Kick Receipt,Multiphase,8,72,C,2,20,22
+420,8,Reds,Kings,14,11,AUS,SA2,5,Scrum,Scrum,0,13,A,1,2,3
+421,8,Reds,Kings,14,11,AUS,SA2,28,Tap Penalty,Tap Penalty,2,14,A,0,2,2
+422,8,Reds,Kings,14,11,AUS,SA2,43,Lineout,Lineout,0,8,B,1,1,2
+423,8,Reds,Kings,14,11,AUS,SA2,47,Scrum,Scrum,0,16,A,0,4,4
+424,8,Reds,Kings,14,11,AUS,SA2,54,Lineout,Kick,2,29,B,0,6,6
+425,8,Reds,Kings,14,11,AUS,SA2,54,Lineout,Lineout,0,13,B,0,4,4
+426,8,Reds,Kings,14,11,AUS,SA2,61,Tap Penalty,Kick,0,17,D,0,1,1
+427,8,Stormers,Lions,3,1,SA1,SA2,11,Kick Receipt,Kick,1,19,C,0,4,4
+428,9,Brumbies,Hurricanes,4,5,AUS,NZ,23,Lineout,Lineout,0,8,A,1,2,3
+429,9,Brumbies,Hurricanes,4,5,AUS,NZ,27,Tap Penalty,Multiphase,6,40,A,0,2,2
+430,9,Brumbies,Hurricanes,4,5,AUS,NZ,29,Kick Receipt,Kick Receipt,2,32,D,4,6,10
+431,9,Bulls,Cheetahs,15,13,SA1,SA1,53,Scrum,Multiphase,8,92,C,1,16,17
+432,9,Bulls,Cheetahs,15,13,SA1,SA1,73,Ruck Turnover,Ruck Turnover,0,16,C,1,4,5
+433,9,Cheetahs,Bulls,13,15,SA1,SA1,6,Lineout,Maul,0,10,A,0,0,0
+434,9,Chiefs,Force,6,12,NZ,AUS,7,Kick Receipt,Kick Receipt,1,15,C,0,3,3
+435,9,Crusaders,Stormers,2,3,NZ,SA1,12,Scrum,Multiphase,5,46,A,1,8,9
+436,9,Crusaders,Stormers,2,3,NZ,SA1,28,Lineout,Lineout,3,26,A,0,6,6
+437,9,Crusaders,Stormers,2,3,NZ,SA1,32,Lineout,Maul,1,19,A,0,4,4
+438,9,Crusaders,Stormers,2,3,NZ,SA1,37,Lineout,Lineout,1,31,B,2,9,11
+439,9,Crusaders,Stormers,2,3,NZ,SA1,39,Kick Receipt,Multiphase,15,133,C,3,30,33
+440,9,Crusaders,Stormers,2,3,NZ,SA1,60,Lineout,Maul,1,17,A,0,0,0
+441,9,Crusaders,Stormers,2,3,NZ,SA1,62,Handling Error,Handling Error,0,14,D,0,0,0
+442,9,Crusaders,Stormers,2,3,NZ,SA1,78,Intercept,Intercept,0,12,D,0,0,0
+443,9,Force,Chiefs,12,6,AUS,NZ,30,Lineout,Maul,0,8,A,0,0,0
+444,9,Highlanders,Sunwolves,7,17,NZ,SA1,4,Handling Error,Handling Error,2,19,B,1,6,7
+445,9,Highlanders,Sunwolves,7,17,NZ,SA1,35,Handling Error,Handling Error,1,18,B,0,6,6
+446,9,Highlanders,Sunwolves,7,17,NZ,SA1,40,Scrum,Scrum,1,22,B,2,3,5
+447,9,Highlanders,Sunwolves,7,17,NZ,SA1,42,Lineout,Lineout,2,18,B,0,4,4
+448,9,Highlanders,Sunwolves,7,17,NZ,SA1,51,Intercept,Intercept,0,8,C,0,0,0
+449,9,Highlanders,Sunwolves,7,17,NZ,SA1,54,Handling Error,Handling Error,3,28,D,1,3,4
+450,9,Hurricanes,Brumbies,5,4,NZ,AUS,7,Kick Receipt,Kick Receipt,0,12,B,0,2,2
+451,9,Hurricanes,Brumbies,5,4,NZ,AUS,12,Lineout,Kick,7,53,A,0,6,6
+452,9,Hurricanes,Brumbies,5,4,NZ,AUS,46,Kick Receipt,Kick,2,24,B,0,2,2
+453,9,Hurricanes,Brumbies,5,4,NZ,AUS,52,Scrum,Scrum,0,12,A,0,2,2
+454,9,Hurricanes,Brumbies,5,4,NZ,AUS,61,Chargedown,Chargedown,0,4,A,0,0,0
+455,9,Hurricanes,Brumbies,5,4,NZ,AUS,64,Lineout,Multiphase,7,57,A,0,4,4
+456,9,Hurricanes,Brumbies,5,4,NZ,AUS,72,Lineout,Maul,0,9,A,0,0,0
+457,9,Hurricanes,Brumbies,5,4,NZ,AUS,75,Scrum,Kick,8,85,B,1,14,15
+458,9,Jaguares,Lions,10,1,SA2,SA2,3,Kick Receipt,Multiphase,6,46,B,3,5,8
+459,9,Jaguares,Lions,10,1,SA2,SA2,47,Lineout,Lineout,3,23,A,0,3,3
+460,9,Jaguares,Lions,10,1,SA2,SA2,50,Handling Error,Handling Error,3,36,C,2,11,13
+461,9,Kings,Waratahs,11,16,SA2,AUS,36,Chargedown,Chargedown,1,11,A,0,1,1
+462,9,Kings,Waratahs,11,16,SA2,AUS,46,Scrum,Scrum,2,22,A,0,3,3
+463,9,Kings,Waratahs,11,16,SA2,AUS,67,Lineout,Maul,0,16,A,0,0,0
+464,9,Kings,Waratahs,11,16,SA2,AUS,77,Scrum,Scrum,0,9,A,0,0,0
+465,9,Lions,Jaguares,1,10,SA2,SA2,10,Scrum,Scrum,2,22,A,0,2,2
+466,9,Lions,Jaguares,1,10,SA2,SA2,21,Scrum,Scrum,3,34,B,0,4,4
+467,9,Lions,Jaguares,1,10,SA2,SA2,71,Kick Receipt,Kick Receipt,1,44,C,3,10,13
+468,9,Stormers,Crusaders,3,2,SA1,NZ,41,Intercept,Intercept,0,10,C,0,0,0
+469,9,Stormers,Crusaders,3,2,SA1,NZ,52,Lineout,Multiphase,7,68,A,0,4,4
+470,9,Stormers,Crusaders,3,2,SA1,NZ,66,Lineout,Multiphase,14,108,A,1,16,17
+471,9,Sunwolves,Highlanders,17,7,SA1,NZ,58,Tap Penalty,Tap Penalty,2,35,A,1,4,5
+472,9,Sunwolves,Highlanders,17,7,SA1,NZ,64,Lineout,Multiphase,10,85,A,0,11,11
+473,9,Waratahs,Kings,16,11,AUS,SA2,13,Scrum,Kick,1,17,A,0,1,1
+474,9,Waratahs,Kings,16,11,AUS,SA2,24,Handling Error,Handling Error,0,21,D,0,5,5
+475,9,Waratahs,Kings,16,11,AUS,SA2,34,Intercept,Intercept,0,12,D,1,0,1
+476,9,Waratahs,Kings,16,11,AUS,SA2,83,Lineout,Lineout,0,11,A,2,3,5
+477,10,Blues,Brumbies,9,4,NZ,AUS,30,Scrum,Multiphase,9,70,B,1,11,12
+478,10,Blues,Brumbies,9,4,NZ,AUS,55,Lineout,Maul,0,8,A,0,0,0
+479,10,Blues,Brumbies,9,4,NZ,AUS,68,Scrum,Scrum,0,15,A,0,3,3
+480,10,Cheetahs,Crusaders,13,2,SA1,NZ,19,Kick Receipt,Kick Receipt,1,25,D,1,4,5
+481,10,Cheetahs,Crusaders,13,2,SA1,NZ,53,Tap Penalty,Tap Penalty,3,29,A,1,5,6
+482,10,Cheetahs,Crusaders,13,2,SA1,NZ,79,Lineout,Lineout,0,19,A,0,2,2
+483,10,Chiefs,Sunwolves,6,17,NZ,SA1,4,Tap Penalty,Tap Penalty,1,15,A,0,0,0
+484,10,Chiefs,Sunwolves,6,17,NZ,SA1,23,Lineout,Multiphase,7,45,A,1,3,4
+485,10,Chiefs,Sunwolves,6,17,NZ,SA1,39,Lineout,Multiphase,6,39,B,0,6,6
+486,10,Chiefs,Sunwolves,6,17,NZ,SA1,60,Kick Receipt,Kick Receipt,0,12,C,1,1,2
+487,10,Crusaders,Cheetahs,2,13,NZ,SA1,12,Scrum,Multiphase,4,34,A,1,6,7
+488,10,Crusaders,Cheetahs,2,13,NZ,SA1,33,Lineout,Lineout,3,51,A,1,5,6
+489,10,Crusaders,Cheetahs,2,13,NZ,SA1,38,Scrum,Kick,0,22,C,0,1,1
+490,10,Crusaders,Cheetahs,2,13,NZ,SA1,47,Scrum,Scrum,0,9,A,0,1,1
+491,10,Crusaders,Cheetahs,2,13,NZ,SA1,55,Lineout,Multiphase,5,72,B,4,15,19
+492,10,Crusaders,Cheetahs,2,13,NZ,SA1,58,Kick Receipt,Kick Receipt,1,24,D,1,4,5
+493,10,Crusaders,Cheetahs,2,13,NZ,SA1,69,Tap Penalty,Tap Penalty,0,10,B,0,3,3
+494,10,Highlanders,Stormers,7,3,NZ,SA1,12,Kick Receipt,Kick Receipt,1,8,B,0,1,1
+495,10,Highlanders,Stormers,7,3,NZ,SA1,17,Lineout,Lineout,3,29,A,0,4,4
+496,10,Highlanders,Stormers,7,3,NZ,SA1,22,Kick Receipt,Kick Receipt,0,8,B,1,1,2
+497,10,Highlanders,Stormers,7,3,NZ,SA1,30,Lineout,Maul,0,10,A,0,0,0
+498,10,Highlanders,Stormers,7,3,NZ,SA1,38,Handling Error,Handling Error,1,21,B,1,5,6
+499,10,Highlanders,Stormers,7,3,NZ,SA1,55,Handling Error,Kick,0,14,D,0,0,0
+500,10,Highlanders,Stormers,7,3,NZ,SA1,65,Tap Penalty,Tap Penalty,0,3,A,0,1,1
+501,10,Highlanders,Stormers,7,3,NZ,SA1,69,Tackle Turnover,Multiphase,9,74,B,2,8,10
+502,10,Highlanders,Stormers,7,3,NZ,SA1,80,Scrum,Kick,6,91,D,3,15,18
+503,10,Jaguares,Sharks,10,8,SA2,SA2,27,Lineout,Lineout,2,20,B,0,4,4
+504,10,Jaguares,Sharks,10,8,SA2,SA2,34,Scrum,Scrum,0,9,A,1,2,3
+505,10,Jaguares,Sharks,10,8,SA2,SA2,62,Kick Receipt,Kick,0,13,C,1,0,1
+506,10,Kings,Rebels,11,18,SA2,AUS,18,Kick Receipt,Kick,4,47,C,0,10,10
+507,10,Kings,Rebels,11,18,SA2,AUS,42,Intercept,Intercept,3,35,C,1,3,4
+508,10,Kings,Rebels,11,18,SA2,AUS,58,Lineout,Lineout,0,5,A,0,1,1
+509,10,Kings,Rebels,11,18,SA2,AUS,63,Handling Error,Handling Error,3,39,D,3,7,10
+510,10,Kings,Rebels,11,18,SA2,AUS,70,Scrum,Scrum,0,20,B,1,3,4
+511,10,Kings,Rebels,11,18,SA2,AUS,79,Lineout,Maul,1,39,A,0,3,3
+512,10,Lions,Force,1,12,SA2,AUS,7,Lineout,Maul,3,25,A,0,4,4
+513,10,Lions,Force,1,12,SA2,AUS,35,Lineout,Multiphase,5,54,B,2,11,13
+514,10,Lions,Force,1,12,SA2,AUS,83,Scrum,Scrum,0,10,A,0,1,1
+515,10,Reds,Waratahs,14,16,AUS,AUS,11,Scrum,Scrum,1,19,A,1,3,4
+516,10,Reds,Waratahs,14,16,AUS,AUS,22,Lineout,Multiphase,6,57,B,4,8,12
+517,10,Reds,Waratahs,14,16,AUS,AUS,30,Intercept,Kick,0,12,D,0,0,0
+518,10,Reds,Waratahs,14,16,AUS,AUS,50,Lineout,Maul,0,15,A,0,0,0
+519,10,Sharks,Jaguares,8,10,SA2,SA2,1,Kick Receipt,Multiphase,12,89,B,2,15,17
+520,10,Sharks,Jaguares,8,10,SA2,SA2,36,Kick Receipt,Kick Receipt,2,31,C,3,3,6
+521,10,Sharks,Jaguares,8,10,SA2,SA2,52,Lineout,Lineout,1,16,B,0,5,5
+522,10,Stormers,Highlanders,3,7,SA1,NZ,7,Kick Receipt,Kick Receipt,1,29,C,1,5,6
+523,10,Stormers,Highlanders,3,7,SA1,NZ,75,Scrum,Scrum,0,6,A,0,0,0
+524,10,Sunwolves,Chiefs,17,6,SA1,NZ,45,Scrum,Scrum,2,25,A,0,2,2
+525,10,Sunwolves,Chiefs,17,6,SA1,NZ,66,Scrum,Multiphase,6,63,B,3,13,16
+526,10,Waratahs,Reds,16,14,AUS,AUS,19,Handling Error,Handling Error,3,31,C,2,7,9
+527,10,Waratahs,Reds,16,14,AUS,AUS,39,Lineout,Lineout,1,13,B,0,2,2
+528,11,Blues,Waratahs,9,16,NZ,AUS,21,Kick Receipt,Kick Receipt,0,8,C,1,0,1
+529,11,Blues,Waratahs,9,16,NZ,AUS,36,Tap Penalty,Tap Penalty,1,11,B,0,3,3
+530,11,Blues,Waratahs,9,16,NZ,AUS,61,Scrum,Multiphase,8,83,B,2,9,11
+531,11,Blues,Waratahs,9,16,NZ,AUS,66,Handling Error,Kick,0,9,B,1,0,1
+532,11,Bulls,Crusaders,15,2,SA1,NZ,53,Ruck Turnover,Kick,3,50,C,2,11,13
+533,11,Bulls,Crusaders,15,2,SA1,NZ,66,Kick Receipt,Multiphase,4,51,B,3,9,12
+534,11,Bulls,Crusaders,15,2,SA1,NZ,79,Handling Error,Handling Error,0,12,C,0,1,1
+535,11,Cheetahs,Highlanders,13,7,SA1,NZ,7,Scrum,Scrum,0,16,D,1,1,2
+536,11,Cheetahs,Highlanders,13,7,SA1,NZ,35,Lineout,Maul,0,26,A,0,4,4
+537,11,Cheetahs,Highlanders,13,7,SA1,NZ,54,Lineout,Lineout,3,61,B,1,11,12
+538,11,Cheetahs,Highlanders,13,7,SA1,NZ,58,Handling Error,Kick,2,30,C,3,6,9
+539,11,Cheetahs,Highlanders,13,7,SA1,NZ,61,Ruck Turnover,Ruck Turnover,1,17,C,1,3,4
+540,11,Chiefs,Reds,6,14,NZ,AUS,12,Kick Receipt,Multiphase,7,61,B,1,13,14
+541,11,Chiefs,Reds,6,14,NZ,AUS,35,Lineout,Multiphase,8,71,A,0,8,8
+542,11,Chiefs,Reds,6,14,NZ,AUS,41,Kick Receipt,Multiphase,7,53,B,0,4,4
+543,11,Chiefs,Reds,6,14,NZ,AUS,44,Tap Penalty,Tap Penalty,3,31,D,0,7,7
+544,11,Chiefs,Reds,6,14,NZ,AUS,53,Scrum,Scrum,0,6,A,0,2,2
+545,11,Chiefs,Reds,6,14,NZ,AUS,71,Lineout,Multiphase,6,63,B,0,12,12
+546,11,Crusaders,Bulls,2,15,NZ,SA1,4,Lineout,Lineout,0,10,B,0,0,0
+547,11,Crusaders,Bulls,2,15,NZ,SA1,10,Tap Penalty,Tap Penalty,0,8,A,0,3,3
+548,11,Crusaders,Bulls,2,15,NZ,SA1,25,Tap Penalty,Tap Penalty,2,22,A,0,1,1
+549,11,Crusaders,Bulls,2,15,NZ,SA1,30,Scrum,Kick,4,51,C,2,9,11
+550,11,Crusaders,Bulls,2,15,NZ,SA1,40,Lineout,Multiphase,13,109,A,1,14,15
+551,11,Crusaders,Bulls,2,15,NZ,SA1,42,Kick Receipt,Kick Receipt,0,7,B,0,0,0
+552,11,Crusaders,Bulls,2,15,NZ,SA1,48,Ruck Turnover,Kick,1,19,C,1,1,2
+553,11,Crusaders,Bulls,2,15,NZ,SA1,51,Ruck Turnover,Kick,0,15,C,0,3,3
+554,11,Crusaders,Bulls,2,15,NZ,SA1,64,Scrum,Scrum,2,29,C,0,8,8
+555,11,Crusaders,Bulls,2,15,NZ,SA1,69,Handling Error,Handling Error,0,7,B,0,0,0
+556,11,Force,Sharks,12,8,AUS,SA2,25,Scrum,Scrum,0,14,C,0,5,5
+557,11,Force,Sharks,12,8,AUS,SA2,67,Lineout,Multiphase,8,72,B,2,11,13
+558,11,Highlanders,Cheetahs,7,13,NZ,SA1,23,Ruck Turnover,Multiphase,8,77,D,2,14,16
+559,11,Highlanders,Cheetahs,7,13,NZ,SA1,45,Lineout,Maul,0,9,A,0,0,0
+560,11,Highlanders,Cheetahs,7,13,NZ,SA1,48,Ruck Turnover,Ruck Turnover,0,13,A,1,3,4
+561,11,Highlanders,Cheetahs,7,13,NZ,SA1,51,Lineout,Lineout,0,18,C,1,5,6
+562,11,Highlanders,Cheetahs,7,13,NZ,SA1,76,Scrum,Scrum,0,10,A,0,3,3
+563,11,Highlanders,Cheetahs,7,13,NZ,SA1,77,Kick Receipt,Kick Receipt,0,18,D,0,4,4
+564,11,Highlanders,Cheetahs,7,13,NZ,SA1,79,Handling Error,Multiphase,8,94,C,1,18,19
+565,11,Hurricanes,Stormers,5,3,NZ,SA1,9,Chargedown,Kick,1,17,B,2,1,3
+566,11,Hurricanes,Stormers,5,3,NZ,SA1,16,Tackle Turnover,Tackle Turnover,0,1,A,0,0,0
+567,11,Hurricanes,Stormers,5,3,NZ,SA1,23,Scrum,Kick,0,21,A,2,1,3
+568,11,Hurricanes,Stormers,5,3,NZ,SA1,34,Ruck Turnover,Kick,1,11,B,0,1,1
+569,11,Hurricanes,Stormers,5,3,NZ,SA1,63,Tap Penalty,Multiphase,7,60,B,0,8,8
+570,11,Hurricanes,Stormers,5,3,NZ,SA1,73,Intercept,Kick,2,33,D,2,2,4
+571,11,Hurricanes,Stormers,5,3,NZ,SA1,82,Lineout,Lineout,2,19,A,0,3,3
+572,11,Jaguares,Sunwolves,10,17,SA2,SA1,8,Lineout,Maul,3,25,A,1,4,5
+573,11,Jaguares,Sunwolves,10,17,SA2,SA1,24,Kick Receipt,Kick Receipt,3,40,B,2,9,11
+574,11,Jaguares,Sunwolves,10,17,SA2,SA1,43,Penalty Try,Penalty Try,0,0,A,0,0,0
+575,11,Jaguares,Sunwolves,10,17,SA2,SA1,51,Lineout,Maul,0,14,A,0,0,0
+576,11,Jaguares,Sunwolves,10,17,SA2,SA1,66,Tap Penalty,Tap Penalty,3,29,B,2,4,6
+577,11,Jaguares,Sunwolves,10,17,SA2,SA1,72,Lineout,Maul,0,11,A,0,0,0
+578,11,Jaguares,Sunwolves,10,17,SA2,SA1,74,Kick Receipt,Kick,5,60,B,0,9,9
+579,11,Lions,Rebels,1,18,SA2,AUS,19,Tap Penalty,Multiphase,6,44,B,1,8,9
+580,11,Lions,Rebels,1,18,SA2,AUS,24,Lineout,Maul,0,18,A,0,1,1
+581,11,Lions,Rebels,1,18,SA2,AUS,40,Kick Receipt,Kick Receipt,2,34,C,1,11,12
+582,11,Lions,Rebels,1,18,SA2,AUS,50,Kick Receipt,Kick Receipt,0,12,C,1,0,1
+583,11,Lions,Rebels,1,18,SA2,AUS,62,Penalty Try,Penalty Try,0,0,A,0,0,0
+584,11,Lions,Rebels,1,18,SA2,AUS,65,Handling Error,Handling Error,0,10,C,0,0,0
+585,11,Lions,Rebels,1,18,SA2,AUS,80,Handling Error,Handling Error,3,25,B,2,3,5
+586,11,Rebels,Lions,18,1,AUS,SA2,27,Kick Receipt,Kick,5,51,B,2,7,9
+587,11,Reds,Chiefs,14,6,AUS,NZ,10,Lineout,Maul,0,13,A,0,0,0
+588,11,Reds,Chiefs,14,6,AUS,NZ,19,Lineout,Maul,0,21,A,0,3,3
+589,11,Reds,Chiefs,14,6,AUS,NZ,58,Handling Error,Handling Error,0,13,B,1,3,4
+590,11,Sharks,Force,8,12,SA2,AUS,37,Lineout,Maul,1,27,A,0,2,2
+591,11,Sharks,Force,8,12,SA2,AUS,40,Lineout,Kick,0,14,B,0,4,4
+592,11,Sharks,Force,8,12,SA2,AUS,55,Handling Error,Kick,0,9,C,0,0,0
+593,11,Sharks,Force,8,12,SA2,AUS,72,Intercept,Intercept,0,4,B,0,0,0
+594,11,Stormers,Hurricanes,3,5,SA1,NZ,27,Lineout,Maul,0,11,A,0,0,0
+595,11,Sunwolves,Jaguares,17,10,SA1,SA2,2,Scrum,Kick,0,19,C,0,5,5
+596,11,Sunwolves,Jaguares,17,10,SA1,SA2,14,Ruck Turnover,Multiphase,4,45,B,2,6,8
+597,11,Sunwolves,Jaguares,17,10,SA1,SA2,38,Handling Error,Handling Error,0,8,B,0,0,0
+598,11,Sunwolves,Jaguares,17,10,SA1,SA2,54,Kick Receipt,Multiphase,5,44,C,0,12,12
+599,11,Sunwolves,Jaguares,17,10,SA1,SA2,59,Lineout,Lineout,3,24,A,0,5,5
+600,11,Waratahs,Blues,16,9,AUS,NZ,41,Lineout,Lineout,2,21,A,1,3,4
+601,11,Waratahs,Blues,16,9,AUS,NZ,57,Lineout,Multiphase,5,34,A,0,4,4
+602,11,Waratahs,Blues,16,9,AUS,NZ,68,Ruck Turnover,Multiphase,6,52,B,1,13,14
+603,11,Waratahs,Blues,16,9,AUS,NZ,73,Tap Penalty,Kick,6,50,A,0,11,11
+604,11,Waratahs,Blues,16,9,AUS,NZ,81,Tap Penalty,Tap Penalty,1,7,A,0,2,2
+605,12,Blues,Cheetahs,9,13,NZ,SA1,10,Lineout,Lineout,2,21,B,1,4,5
+606,12,Blues,Cheetahs,9,13,NZ,SA1,18,Lineout,Multiphase,4,22,A,0,2,2
+607,12,Blues,Cheetahs,9,13,NZ,SA1,22,Lineout,Lineout,3,25,A,1,6,7
+608,12,Blues,Cheetahs,9,13,NZ,SA1,34,Lineout,Multiphase,4,34,B,2,6,8
+609,12,Blues,Cheetahs,9,13,NZ,SA1,46,Lineout,Multiphase,4,34,A,1,5,6
+610,12,Blues,Cheetahs,9,13,NZ,SA1,51,Lineout,Lineout,3,28,B,1,4,5
+611,12,Blues,Cheetahs,9,13,NZ,SA1,53,Kick Receipt,Kick Receipt,2,22,D,0,4,4
+612,12,Blues,Cheetahs,9,13,NZ,SA1,67,Lineout,Multiphase,4,44,C,3,7,10
+613,12,Bulls,Highlanders,15,7,SA1,NZ,46,Lineout,Kick,7,62,B,2,7,9
+614,12,Cheetahs,Blues,13,9,SA1,NZ,6,Lineout,Multiphase,7,79,B,2,17,19
+615,12,Cheetahs,Blues,13,9,SA1,NZ,14,Lineout,Maul,0,16,A,0,0,0
+616,12,Cheetahs,Blues,13,9,SA1,NZ,57,Lineout,Maul,0,7,A,0,0,0
+617,12,Cheetahs,Blues,13,9,SA1,NZ,77,Lineout,Maul,0,8,A,0,0,0
+618,12,Crusaders,Hurricanes,2,5,NZ,NZ,50,Lineout,Maul,0,7,A,0,0,0
+619,12,Force,Jaguares,12,10,AUS,SA2,67,Kick Receipt,Multiphase,7,61,B,3,13,16
+620,12,Force,Jaguares,12,10,AUS,SA2,78,Kick Receipt,Multiphase,8,63,B,3,9,12
+621,12,Highlanders,Bulls,7,15,NZ,SA1,17,Scrum,Kick,0,13,C,0,0,0
+622,12,Highlanders,Bulls,7,15,NZ,SA1,75,Lineout,Lineout,0,14,B,0,4,4
+623,12,Kings,Sharks,11,8,SA2,SA2,5,Kick Receipt,Kick,0,5,A,0,2,2
+624,12,Kings,Sharks,11,8,SA2,SA2,38,Kick Receipt,Multiphase,4,43,C,1,9,10
+625,12,Kings,Sharks,11,8,SA2,SA2,41,Kick Receipt,Kick Receipt,1,16,D,0,1,1
+626,12,Kings,Sharks,11,8,SA2,SA2,77,Lineout,Multiphase,5,71,A,0,5,5
+627,12,Lions,Brumbies,1,4,SA2,AUS,54,Handling Error,Handling Error,0,10,C,0,0,0
+628,12,Rebels,Reds,18,14,AUS,AUS,54,Kick Receipt,Kick Receipt,2,31,D,2,2,4
+629,12,Rebels,Reds,18,14,AUS,AUS,69,Lineout,Multiphase,8,48,A,0,8,8
+630,12,Reds,Rebels,14,18,AUS,AUS,6,Scrum,Scrum,2,31,A,1,9,10
+631,12,Reds,Rebels,14,18,AUS,AUS,26,Kick Receipt,Multiphase,5,47,C,1,13,14
+632,12,Reds,Rebels,14,18,AUS,AUS,38,Lineout,Maul,0,11,A,0,0,0
+633,12,Reds,Rebels,14,18,AUS,AUS,48,Kick Receipt,Kick Receipt,0,10,C,2,1,3
+634,12,Reds,Rebels,14,18,AUS,AUS,78,Scrum,Scrum,2,27,B,1,3,4
+635,12,Sharks,Kings,8,11,SA2,SA2,23,Lineout,Lineout,1,9,A,0,0,0
+636,12,Sharks,Kings,8,11,SA2,SA2,58,Tackle Turnover,Tackle Turnover,2,30,B,1,7,8
+637,13,Blues,Stormers,9,3,NZ,SA1,22,Scrum,Scrum,1,23,A,1,2,3
+638,13,Blues,Stormers,9,3,NZ,SA1,32,Scrum,Multiphase,4,45,A,4,4,8
+639,13,Blues,Stormers,9,3,NZ,SA1,44,Lineout,Lineout,2,13,A,1,0,1
+640,13,Brumbies,Kings,4,11,AUS,SA2,21,Lineout,Maul,0,11,A,0,0,0
+641,13,Brumbies,Kings,4,11,AUS,SA2,64,Intercept,Kick,0,8,B,0,1,1
+642,13,Brumbies,Kings,4,11,AUS,SA2,71,Kick Receipt,Kick,1,14,B,0,2,2
+643,13,Bulls,Lions,15,1,SA1,SA2,6,Lineout,Lineout,0,12,C,1,3,4
+644,13,Bulls,Lions,15,1,SA1,SA2,27,Lineout,Multiphase,4,41,B,1,7,8
+645,13,Cheetahs,Hurricanes,13,5,SA1,NZ,25,Lineout,Maul,2,23,A,0,2,2
+646,13,Chiefs,Crusaders,6,2,NZ,NZ,19,Lineout,Lineout,3,31,B,1,8,9
+647,13,Chiefs,Crusaders,6,2,NZ,NZ,24,Scrum,Kick,0,17,C,0,2,2
+648,13,Chiefs,Crusaders,6,2,NZ,NZ,29,Kick Receipt,Kick Receipt,3,42,B,3,3,6
+649,13,Chiefs,Crusaders,6,2,NZ,NZ,71,Scrum,Scrum,0,3,A,0,1,1
+650,13,Crusaders,Chiefs,2,6,NZ,NZ,26,Kick Receipt,Multiphase,8,67,C,2,11,13
+651,13,Crusaders,Chiefs,2,6,NZ,NZ,46,Kick Receipt,Kick Receipt,0,14,C,2,2,4
+652,13,Crusaders,Chiefs,2,6,NZ,NZ,58,Lineout,Lineout,2,35,C,0,5,5
+653,13,Highlanders,Force,7,12,NZ,AUS,19,Lineout,Lineout,3,22,B,0,5,5
+654,13,Highlanders,Force,7,12,NZ,AUS,36,Intercept,Intercept,0,2,A,0,0,0
+655,13,Highlanders,Force,7,12,NZ,AUS,44,Kick Receipt,Kick Receipt,1,17,C,0,3,3
+656,13,Highlanders,Force,7,12,NZ,AUS,50,Lineout,Multiphase,4,29,A,0,4,4
+657,13,Highlanders,Force,7,12,NZ,AUS,58,Lineout,Multiphase,4,34,B,1,7,8
+658,13,Highlanders,Force,7,12,NZ,AUS,64,Kick Receipt,Kick Receipt,0,18,D,1,1,2
+659,13,Highlanders,Force,7,12,NZ,AUS,67,Intercept,Intercept,0,5,B,0,0,0
+660,13,Highlanders,Force,7,12,NZ,AUS,81,Handling Error,Kick,0,4,A,0,0,0
+661,13,Hurricanes,Cheetahs,5,13,NZ,SA1,17,Handling Error,Handling Error,0,7,A,0,0,0
+662,13,Hurricanes,Cheetahs,5,13,NZ,SA1,20,Lineout,Lineout,1,18,C,0,4,4
+663,13,Hurricanes,Cheetahs,5,13,NZ,SA1,39,Lineout,Maul,2,32,A,0,0,0
+664,13,Hurricanes,Cheetahs,5,13,NZ,SA1,45,Lineout,Maul,2,29,A,0,2,2
+665,13,Hurricanes,Cheetahs,5,13,NZ,SA1,47,Kick Receipt,Kick Receipt,1,22,D,0,4,4
+666,13,Hurricanes,Cheetahs,5,13,NZ,SA1,56,Scrum,Scrum,2,15,A,0,0,0
+667,13,Hurricanes,Cheetahs,5,13,NZ,SA1,61,Scrum,Kick,0,18,D,0,2,2
+668,13,Hurricanes,Cheetahs,5,13,NZ,SA1,70,Kick Receipt,Kick Receipt,1,28,D,1,5,6
+669,13,Hurricanes,Cheetahs,5,13,NZ,SA1,74,Tackle Turnover,Tackle Turnover,0,0,A,0,0,0
+670,13,Kings,Brumbies,11,4,SA2,AUS,3,Penalty Try,Penalty Try,0,0,A,0,0,0
+671,13,Lions,Bulls,1,15,SA2,SA1,1,Lineout,Kick,1,18,C,0,6,6
+672,13,Lions,Bulls,1,15,SA2,SA1,22,Scrum,Kick,0,21,C,1,2,3
+673,13,Lions,Bulls,1,15,SA2,SA1,24,Kick Receipt,Kick,3,35,C,1,5,6
+674,13,Lions,Bulls,1,15,SA2,SA1,31,Chargedown,Chargedown,0,3,A,0,0,0
+675,13,Lions,Bulls,1,15,SA2,SA1,40,Lineout,Multiphase,4,35,A,2,6,8
+676,13,Lions,Bulls,1,15,SA2,SA1,42,Lineout,Kick,6,61,A,2,9,11
+677,13,Lions,Bulls,1,15,SA2,SA1,80,Tackle Turnover,Tackle Turnover,2,34,C,2,7,9
+678,13,Rebels,Waratahs,18,16,AUS,AUS,18,Tap Penalty,Tap Penalty,0,2,A,0,0,0
+679,13,Rebels,Waratahs,18,16,AUS,AUS,49,Tap Penalty,Tap Penalty,0,8,A,1,1,2
+680,13,Rebels,Waratahs,18,16,AUS,AUS,59,Scrum,Scrum,2,32,D,0,5,5
+681,13,Sharks,Sunwolves,8,17,SA2,SA1,2,Kick Receipt,Multiphase,5,48,D,0,11,11
+682,13,Sharks,Sunwolves,8,17,SA2,SA1,23,Lineout,Maul,0,16,A,0,0,0
+683,13,Sharks,Sunwolves,8,17,SA2,SA1,35,Handling Error,Handling Error,0,9,B,1,0,1
+684,13,Sharks,Sunwolves,8,17,SA2,SA1,75,Scrum,Scrum,1,19,A,1,3,4
+685,13,Sharks,Sunwolves,8,17,SA2,SA1,78,Intercept,Intercept,0,9,C,0,1,1
+686,13,Sharks,Sunwolves,8,17,SA2,SA1,80,Kick Receipt,Kick Receipt,0,12,C,2,0,2
+687,13,Stormers,Blues,3,9,SA1,NZ,41,Lineout,Lineout,1,24,A,1,1,2
+688,13,Stormers,Blues,3,9,SA1,NZ,60,Tap Penalty,Tap Penalty,0,2,A,0,0,0
+689,13,Stormers,Blues,3,9,SA1,NZ,69,Lineout,Maul,3,43,B,0,4,4
+690,13,Sunwolves,Sharks,17,8,SA1,SA2,18,Tap Penalty,Multiphase,8,56,A,1,12,13
+691,13,Sunwolves,Sharks,17,8,SA1,SA2,52,Lineout,Lineout,2,19,A,0,4,4
+692,13,Waratahs,Rebels,16,18,AUS,AUS,7,Kick Receipt,Kick Receipt,2,24,B,1,7,8
+693,13,Waratahs,Rebels,16,18,AUS,AUS,29,Lineout,Lineout,2,37,B,1,13,14
+694,13,Waratahs,Rebels,16,18,AUS,AUS,32,Handling Error,Multiphase,11,87,B,0,18,18
+695,13,Waratahs,Rebels,16,18,AUS,AUS,41,Ruck Turnover,Multiphase,4,41,B,1,14,15
+696,13,Waratahs,Rebels,16,18,AUS,AUS,53,Handling Error,Multiphase,5,28,B,0,6,6
+697,13,Waratahs,Rebels,16,18,AUS,AUS,67,Lineout,Lineout,0,13,C,2,3,5
+698,13,Waratahs,Rebels,16,18,AUS,AUS,73,Intercept,Intercept,1,10,A,1,2,3
+699,13,Waratahs,Rebels,16,18,AUS,AUS,80,Lineout,Lineout,0,13,C,1,3,4
+700,14,Blues,Chiefs,9,6,NZ,NZ,30,Scrum,Multiphase,4,31,B,2,6,8
+701,14,Brumbies,Jaguares,4,10,AUS,SA2,13,Lineout,Maul,0,19,A,0,0,0
+702,14,Brumbies,Jaguares,4,10,AUS,SA2,25,Scrum,Scrum,0,11,B,0,2,2
+703,14,Brumbies,Jaguares,4,10,AUS,SA2,29,Handling Error,Kick,0,6,B,0,0,0
+704,14,Brumbies,Jaguares,4,10,AUS,SA2,55,Scrum,Multiphase,4,44,B,2,9,11
+705,14,Brumbies,Jaguares,4,10,AUS,SA2,69,Lineout,Kick,1,14,B,1,3,4
+706,14,Brumbies,Jaguares,4,10,AUS,SA2,72,Tackle Turnover,Tackle Turnover,2,35,C,2,5,7
+707,14,Bulls,Hurricanes,15,5,SA1,NZ,4,Lineout,Kick,0,13,C,0,3,3
+708,14,Bulls,Hurricanes,15,5,SA1,NZ,76,Kick Receipt,Multiphase,5,50,B,3,9,12
+709,14,Cheetahs,Sunwolves,13,17,SA1,SA1,16,Lineout,Multiphase,4,40,A,1,5,6
+710,14,Cheetahs,Sunwolves,13,17,SA1,SA1,40,Lineout,Multiphase,7,41,B,0,3,3
+711,14,Cheetahs,Sunwolves,13,17,SA1,SA1,41,Kick Receipt,Kick Receipt,0,19,C,1,4,5
+712,14,Cheetahs,Sunwolves,13,17,SA1,SA1,66,Lineout,Multiphase,7,88,B,4,14,18
+713,14,Cheetahs,Sunwolves,13,17,SA1,SA1,71,Lineout,Lineout,1,13,A,1,0,1
+714,14,Cheetahs,Sunwolves,13,17,SA1,SA1,76,Lineout,Lineout,1,21,D,2,2,4
+715,14,Cheetahs,Sunwolves,13,17,SA1,SA1,82,Scrum,Scrum,0,12,C,0,3,3
+716,14,Chiefs,Blues,6,9,NZ,NZ,39,Kick Receipt,Kick Receipt,1,15,B,1,3,4
+717,14,Chiefs,Blues,6,9,NZ,NZ,67,Handling Error,Kick,2,30,D,1,4,5
+718,14,Crusaders,Rebels,2,18,NZ,AUS,16,Kick Receipt,Kick Receipt,2,34,C,1,9,10
+719,14,Crusaders,Rebels,2,18,NZ,AUS,26,Lineout,Maul,0,10,A,0,0,0
+720,14,Crusaders,Rebels,2,18,NZ,AUS,30,Lineout,Lineout,3,25,B,0,8,8
+721,14,Crusaders,Rebels,2,18,NZ,AUS,35,Ruck Turnover,Multiphase,5,43,B,1,13,14
+722,14,Crusaders,Rebels,2,18,NZ,AUS,45,Kick Receipt,Kick Receipt,3,38,C,1,9,10
+723,14,Crusaders,Rebels,2,18,NZ,AUS,61,Kick Receipt,Multiphase,4,35,B,0,8,8
+724,14,Force,Reds,12,14,AUS,AUS,37,Lineout,Multiphase,7,47,B,0,4,4
+725,14,Force,Reds,12,14,AUS,AUS,44,Penalty Try,Penalty Try,0,0,A,0,0,0
+726,14,Force,Reds,12,14,AUS,AUS,61,Scrum,Scrum,0,16,A,1,3,4
+727,14,Force,Reds,12,14,AUS,AUS,69,Lineout,Maul,0,19,A,0,0,0
+728,14,Highlanders,Waratahs,7,16,NZ,AUS,15,Chargedown,Chargedown,0,1,A,0,0,0
+729,14,Highlanders,Waratahs,7,16,NZ,AUS,46,Lineout,Maul,0,15,A,0,0,0
+730,14,Highlanders,Waratahs,7,16,NZ,AUS,50,Tap Penalty,Kick,5,46,B,2,5,7
+731,14,Highlanders,Waratahs,7,16,NZ,AUS,64,Lineout,Multiphase,5,32,A,0,8,8
+732,14,Highlanders,Waratahs,7,16,NZ,AUS,72,Kick Receipt,Kick Receipt,1,18,C,1,2,3
+733,14,Highlanders,Waratahs,7,16,NZ,AUS,73,Handling Error,Handling Error,1,25,D,1,6,7
+734,14,Hurricanes,Bulls,5,15,NZ,SA1,1,Kick Receipt,Kick Receipt,3,44,C,0,11,11
+735,14,Hurricanes,Bulls,5,15,NZ,SA1,19,Lineout,Lineout,0,11,B,0,2,2
+736,14,Hurricanes,Bulls,5,15,NZ,SA1,36,Ruck Turnover,Ruck Turnover,0,18,B,0,2,2
+737,14,Hurricanes,Bulls,5,15,NZ,SA1,44,Lineout,Multiphase,6,52,A,2,10,12
+738,14,Hurricanes,Bulls,5,15,NZ,SA1,60,Kick Receipt,Kick Receipt,0,17,C,0,5,5
+739,14,Jaguares,Brumbies,10,4,SA2,AUS,18,Handling Error,Multiphase,4,33,A,0,4,4
+740,14,Jaguares,Brumbies,10,4,SA2,AUS,78,Lineout,Maul,0,23,A,0,0,0
+741,14,Kings,Lions,11,1,SA2,SA2,60,Intercept,Intercept,0,4,B,0,0,0
+742,14,Lions,Kings,1,11,SA2,SA2,11,Lineout,Maul,0,16,A,0,0,0
+743,14,Lions,Kings,1,11,SA2,SA2,19,Lineout,Kick,2,30,B,2,6,8
+744,14,Lions,Kings,1,11,SA2,SA2,41,Tackle Turnover,Tackle Turnover,1,36,C,2,3,5
+745,14,Lions,Kings,1,11,SA2,SA2,42,Lineout,Maul,0,15,A,0,0,0
+746,14,Lions,Kings,1,11,SA2,SA2,50,Ruck Turnover,Ruck Turnover,0,11,B,2,0,2
+747,14,Lions,Kings,1,11,SA2,SA2,54,Lineout,Lineout,1,27,C,1,6,7
+748,14,Lions,Kings,1,11,SA2,SA2,77,Scrum,Scrum,1,29,C,2,7,9
+749,14,Lions,Kings,1,11,SA2,SA2,81,Tackle Turnover,Tackle Turnover,0,22,D,1,4,5
+750,14,Rebels,Crusaders,18,2,AUS,NZ,33,Lineout,Lineout,0,8,A,0,1,1
+751,14,Rebels,Crusaders,18,2,AUS,NZ,41,Handling Error,Multiphase,7,38,B,1,3,4
+752,14,Rebels,Crusaders,18,2,AUS,NZ,58,Intercept,Intercept,1,28,D,2,4,6
+753,14,Reds,Force,14,12,AUS,AUS,5,Lineout,Multiphase,4,30,A,0,2,2
+754,14,Reds,Force,14,12,AUS,AUS,41,Kick Receipt,Kick Receipt,0,11,C,0,2,2
+755,14,Reds,Force,14,12,AUS,AUS,50,Lineout,Maul,0,9,A,0,0,0
+756,14,Reds,Force,14,12,AUS,AUS,58,Lineout,Maul,0,13,A,0,0,0
+757,14,Sharks,Stormers,8,3,SA2,SA1,9,Chargedown,Multiphase,13,106,C,3,11,14
+758,14,Sharks,Stormers,8,3,SA2,SA1,36,Tap Penalty,Tap Penalty,2,10,A,0,0,0
+759,14,Sharks,Stormers,8,3,SA2,SA1,62,Lineout,Lineout,0,9,B,0,1,1
+760,14,Stormers,Sharks,3,8,SA1,SA2,56,Tap Penalty,Tap Penalty,1,7,A,0,0,0
+761,14,Sunwolves,Cheetahs,17,13,SA1,SA1,47,Scrum,Multiphase,5,50,A,1,6,7
+762,14,Waratahs,Highlanders,16,7,AUS,NZ,18,Kick Receipt,Multiphase,7,52,C,0,12,12
+763,14,Waratahs,Highlanders,16,7,AUS,NZ,39,Scrum,Scrum,0,12,A,0,2,2
+764,14,Waratahs,Highlanders,16,7,AUS,NZ,70,Lineout,Multiphase,4,22,B,0,3,3
+765,14,Waratahs,Highlanders,16,7,AUS,NZ,77,Tap Penalty,Tap Penalty,0,6,B,0,0,0
+766,15,Blues,Reds,9,14,NZ,AUS,3,Scrum,Scrum,3,33,A,1,8,9
+767,15,Blues,Reds,9,14,NZ,AUS,7,Kick Receipt,Kick Receipt,1,20,C,1,5,6
+768,15,Blues,Reds,9,14,NZ,AUS,29,Lineout,Maul,0,7,A,0,0,0
+769,15,Blues,Reds,9,14,NZ,AUS,61,Kick Receipt,Kick Receipt,1,28,C,2,8,10
+770,15,Blues,Reds,9,14,NZ,AUS,74,Handling Error,Multiphase,6,44,C,1,7,8
+771,15,Brumbies,Rebels,4,18,AUS,AUS,32,Tap Penalty,Tap Penalty,1,14,A,0,2,2
+772,15,Brumbies,Rebels,4,18,AUS,AUS,43,Scrum,Scrum,0,14,A,0,1,1
+773,15,Brumbies,Rebels,4,18,AUS,AUS,58,Lineout,Maul,1,16,B,0,1,1
+774,15,Brumbies,Rebels,4,18,AUS,AUS,79,Handling Error,Handling Error,0,6,B,1,0,1
+775,15,Bulls,Sharks,15,8,SA1,SA2,7,Lineout,Lineout,0,3,A,0,0,0
+776,15,Bulls,Sharks,15,8,SA1,SA2,20,Tackle Turnover,Tackle Turnover,0,13,C,0,2,2
+777,15,Bulls,Sharks,15,8,SA1,SA2,25,Kick Receipt,Kick Receipt,2,23,C,0,5,5
+778,15,Bulls,Sharks,15,8,SA1,SA2,56,Kick Receipt,Kick Receipt,2,30,C,1,6,7
+779,15,Cheetahs,Stormers,13,3,SA1,SA1,7,Scrum,Scrum,1,20,A,0,2,2
+780,15,Cheetahs,Stormers,13,3,SA1,SA1,38,Lineout,Maul,0,8,A,0,0,0
+781,15,Cheetahs,Stormers,13,3,SA1,SA1,55,Lineout,Maul,2,17,A,0,1,1
+782,15,Cheetahs,Stormers,13,3,SA1,SA1,60,Tap Penalty,Tap Penalty,2,23,C,1,4,5
+783,15,Chiefs,Waratahs,6,16,NZ,AUS,14,Scrum,Scrum,2,50,A,5,7,12
+784,15,Chiefs,Waratahs,6,16,NZ,AUS,31,Handling Error,Kick,1,14,C,0,1,1
+785,15,Chiefs,Waratahs,6,16,NZ,AUS,41,Lineout,Lineout,0,7,B,2,1,3
+786,15,Chiefs,Waratahs,6,16,NZ,AUS,43,Kick Receipt,Maul,0,25,C,2,2,4
+787,15,Chiefs,Waratahs,6,16,NZ,AUS,59,Lineout,Lineout,1,18,B,2,1,3
+788,15,Chiefs,Waratahs,6,16,NZ,AUS,78,Lineout,Multiphase,5,42,A,4,6,10
+789,15,Crusaders,Highlanders,2,7,NZ,NZ,1,Lineout,Multiphase,11,103,A,1,18,19
+790,15,Crusaders,Highlanders,2,7,NZ,NZ,14,Lineout,Lineout,0,14,B,1,3,4
+791,15,Crusaders,Highlanders,2,7,NZ,NZ,38,Ruck Turnover,Ruck Turnover,2,23,C,0,6,6
+792,15,Force,Hurricanes,12,5,AUS,NZ,44,Lineout,Kick,1,18,B,0,1,1
+793,15,Force,Hurricanes,12,5,AUS,NZ,81,Lineout,Maul,0,13,A,0,0,0
+794,15,Highlanders,Crusaders,7,2,NZ,NZ,30,Scrum,Scrum,0,15,A,0,3,3
+795,15,Highlanders,Crusaders,7,2,NZ,NZ,46,Tackle Turnover,Kick,0,8,B,0,1,1
+796,15,Highlanders,Crusaders,7,2,NZ,NZ,50,Intercept,Intercept,0,9,C,0,0,0
+797,15,Hurricanes,Force,5,12,NZ,AUS,2,Kick Receipt,Kick Receipt,1,15,C,0,2,2
+798,15,Hurricanes,Force,5,12,NZ,AUS,36,Lineout,Multiphase,4,50,A,0,2,2
+799,15,Hurricanes,Force,5,12,NZ,AUS,55,Lineout,Lineout,0,5,A,0,1,1
+800,15,Hurricanes,Force,5,12,NZ,AUS,67,Lineout,Kick,3,51,C,2,7,9
+801,15,Hurricanes,Force,5,12,NZ,AUS,69,Handling Error,Kick,0,2,A,0,0,0
+802,15,Hurricanes,Force,5,12,NZ,AUS,71,Kick Receipt,Kick Receipt,1,18,C,1,3,4
+803,15,Jaguares,Kings,10,11,SA2,SA2,16,Scrum,Scrum,1,28,A,2,4,6
+804,15,Jaguares,Kings,10,11,SA2,SA2,30,Scrum,Kick,0,17,B,0,4,4
+805,15,Jaguares,Kings,10,11,SA2,SA2,37,Lineout,Maul,3,24,A,0,1,1
+806,15,Jaguares,Kings,10,11,SA2,SA2,41,Kick Receipt,Kick,4,45,C,2,8,10
+807,15,Jaguares,Kings,10,11,SA2,SA2,74,Lineout,Kick,0,21,A,0,1,1
+808,15,Kings,Jaguares,11,10,SA2,SA2,22,Lineout,Maul,1,17,A,0,1,1
+809,15,Kings,Jaguares,11,10,SA2,SA2,27,Scrum,Scrum,1,15,A,1,4,5
+810,15,Kings,Jaguares,11,10,SA2,SA2,58,Kick Receipt,Kick Receipt,1,20,C,2,5,7
+811,15,Kings,Jaguares,11,10,SA2,SA2,70,Scrum,Scrum,3,43,B,0,2,2
+812,15,Lions,Sunwolves,1,17,SA2,SA1,6,Scrum,Scrum,0,8,A,0,0,0
+813,15,Lions,Sunwolves,1,17,SA2,SA1,10,Scrum,Scrum,0,16,B,1,1,2
+814,15,Lions,Sunwolves,1,17,SA2,SA1,19,Scrum,Scrum,2,34,C,0,9,9
+815,15,Lions,Sunwolves,1,17,SA2,SA1,27,Kick Receipt,Kick Receipt,2,25,C,1,3,4
+816,15,Lions,Sunwolves,1,17,SA2,SA1,38,Lineout,Multiphase,11,74,B,1,11,12
+817,15,Lions,Sunwolves,1,17,SA2,SA1,45,Lineout,Maul,0,17,A,0,0,0
+818,15,Lions,Sunwolves,1,17,SA2,SA1,51,Kick Receipt,Kick Receipt,2,34,B,3,5,8
+819,15,Lions,Sunwolves,1,17,SA2,SA1,53,Kick Receipt,Multiphase,4,45,C,2,9,11
+820,15,Lions,Sunwolves,1,17,SA2,SA1,58,Kick Receipt,Kick Receipt,3,34,C,0,5,5
+821,15,Lions,Sunwolves,1,17,SA2,SA1,65,Lineout,Lineout,0,17,C,0,2,2
+822,15,Lions,Sunwolves,1,17,SA2,SA1,71,Tap Penalty,Tap Penalty,1,13,B,0,2,2
+823,15,Lions,Sunwolves,1,17,SA2,SA1,73,Kick Receipt,Kick Receipt,1,20,D,0,2,2
+824,15,Lions,Sunwolves,1,17,SA2,SA1,77,Tackle Turnover,Tackle Turnover,2,38,D,1,5,6
+825,15,Lions,Sunwolves,1,17,SA2,SA1,81,Intercept,Intercept,0,7,B,0,0,0
+826,15,Reds,Blues,14,9,AUS,NZ,14,Scrum,Multiphase,6,55,A,0,5,5
+827,15,Reds,Blues,14,9,AUS,NZ,32,Lineout,Maul,0,16,A,0,0,0
+828,15,Reds,Blues,14,9,AUS,NZ,52,Scrum,Scrum,1,15,A,0,3,3
+829,15,Reds,Blues,14,9,AUS,NZ,64,Chargedown,Chargedown,2,17,A,0,0,0
+830,15,Sharks,Bulls,8,15,SA2,SA1,16,Lineout,Multiphase,8,69,B,5,9,14
+831,15,Sharks,Bulls,8,15,SA2,SA1,53,Lineout,Lineout,1,20,B,0,4,4
+832,15,Stormers,Cheetahs,3,13,SA1,SA1,2,Kick Receipt,Kick Receipt,2,32,C,1,6,7
+833,15,Stormers,Cheetahs,3,13,SA1,SA1,20,Lineout,Lineout,1,31,B,0,7,7
+834,15,Stormers,Cheetahs,3,13,SA1,SA1,27,Lineout,Multiphase,5,58,A,1,10,11
+835,15,Stormers,Cheetahs,3,13,SA1,SA1,31,Intercept,Intercept,0,5,A,0,0,0
+836,15,Stormers,Cheetahs,3,13,SA1,SA1,51,Kick Receipt,Kick Receipt,3,46,B,1,11,12
+837,15,Stormers,Cheetahs,3,13,SA1,SA1,73,Lineout,Maul,0,10,A,1,0,1
+838,15,Sunwolves,Lions,17,1,SA1,SA2,61,Lineout,Multiphase,7,78,C,8,10,18
+839,15,Waratahs,Chiefs,16,6,AUS,NZ,50,Intercept,Intercept,0,7,B,0,0,0
+840,15,Waratahs,Chiefs,16,6,AUS,NZ,56,Lineout,Maul,0,20,A,0,0,0
+841,15,Waratahs,Chiefs,16,6,AUS,NZ,72,Scrum,Scrum,0,8,A,0,2,2
+842,15,Waratahs,Chiefs,16,6,AUS,NZ,74,Kick Receipt,Kick Receipt,2,34,D,2,5,7
+843,16,Brumbies,Reds,4,14,AUS,AUS,50,Lineout,Maul,0,17,A,0,0,0
+844,16,Brumbies,Reds,4,14,AUS,AUS,55,Tackle Turnover,Tackle Turnover,0,1,A,0,0,0
+845,16,Bulls,Kings,15,11,SA1,SA2,40,Ruck Turnover,Multiphase,5,69,C,6,12,18
+846,16,Bulls,Kings,15,11,SA1,SA2,43,Scrum,Scrum,0,16,C,0,2,2
+847,16,Bulls,Kings,15,11,SA1,SA2,76,Kick Receipt,Multiphase,5,58,C,2,13,15
+848,16,Chiefs,Hurricanes,6,5,NZ,NZ,23,Kick Receipt,Kick Receipt,0,12,B,1,3,4
+849,16,Chiefs,Hurricanes,6,5,NZ,NZ,63,Scrum,Scrum,0,14,C,0,2,2
+850,16,Force,Rebels,12,18,AUS,AUS,7,Lineout,Lineout,0,9,B,0,2,2
+851,16,Force,Rebels,12,18,AUS,AUS,34,Scrum,Scrum,3,38,A,0,3,3
+852,16,Force,Rebels,12,18,AUS,AUS,48,Lineout,Multiphase,14,97,B,0,18,18
+853,16,Force,Rebels,12,18,AUS,AUS,51,Kick Receipt,Multiphase,10,82,C,5,15,20
+854,16,Hurricanes,Chiefs,5,6,NZ,NZ,5,Scrum,Multiphase,5,50,A,0,12,12
+855,16,Hurricanes,Chiefs,5,6,NZ,NZ,77,Lineout,Lineout,1,13,A,0,5,5
+856,16,Jaguares,Waratahs,10,16,SA2,AUS,5,Scrum,Scrum,2,31,C,3,5,8
+857,16,Jaguares,Waratahs,10,16,SA2,AUS,12,Lineout,Lineout,1,23,C,0,4,4
+858,16,Jaguares,Waratahs,10,16,SA2,AUS,32,Lineout,Maul,3,18,A,0,1,1
+859,16,Jaguares,Waratahs,10,16,SA2,AUS,55,Lineout,Maul,0,13,A,0,0,0
+860,16,Jaguares,Waratahs,10,16,SA2,AUS,67,Kick Receipt,Kick,2,28,C,1,2,3
+861,16,Kings,Bulls,11,15,SA2,SA1,10,Lineout,Multiphase,8,74,B,1,16,17
+862,16,Kings,Bulls,11,15,SA2,SA1,24,Lineout,Multiphase,6,56,A,0,10,10
+863,16,Kings,Bulls,11,15,SA2,SA1,33,Kick Receipt,Kick,3,36,C,1,5,6
+864,16,Rebels,Force,18,12,AUS,AUS,22,Ruck Turnover,Ruck Turnover,1,23,C,0,4,4
+865,16,Rebels,Force,18,12,AUS,AUS,40,Scrum,Scrum,2,41,C,2,7,9
+866,16,Rebels,Force,18,12,AUS,AUS,58,Tap Penalty,Tap Penalty,1,10,A,0,4,4
+867,16,Reds,Brumbies,14,4,AUS,AUS,71,Scrum,Multiphase,4,51,C,1,12,13
+868,16,Stormers,Sunwolves,3,17,SA1,SA1,8,Kick Receipt,Kick Receipt,0,8,B,0,0,0
+869,16,Stormers,Sunwolves,3,17,SA1,SA1,14,Scrum,Multiphase,7,72,A,0,4,4
+870,16,Stormers,Sunwolves,3,17,SA1,SA1,39,Kick Receipt,Kick,0,12,B,0,0,0
+871,16,Stormers,Sunwolves,3,17,SA1,SA1,46,Kick Receipt,Kick Receipt,0,14,C,0,1,1
+872,16,Stormers,Sunwolves,3,17,SA1,SA1,57,Kick Receipt,Multiphase,6,61,B,1,13,14
+873,16,Stormers,Sunwolves,3,17,SA1,SA1,67,Ruck Turnover,Multiphase,7,62,C,1,15,16
+874,16,Stormers,Sunwolves,3,17,SA1,SA1,75,Handling Error,Kick,0,9,B,0,0,0
+875,16,Stormers,Sunwolves,3,17,SA1,SA1,81,Ruck Turnover,Ruck Turnover,1,29,C,1,7,8
+876,16,Sunwolves,Stormers,17,3,SA1,SA1,19,Tackle Turnover,Multiphase,4,43,B,2,12,14
+877,16,Sunwolves,Stormers,17,3,SA1,SA1,48,Lineout,Multiphase,8,59,A,1,9,10
+878,16,Waratahs,Jaguares,16,10,AUS,SA2,36,Lineout,Kick,1,25,A,0,1,1
+879,16,Waratahs,Jaguares,16,10,AUS,SA2,41,Kick Receipt,Multiphase,5,47,B,2,9,11
+880,16,Waratahs,Jaguares,16,10,AUS,SA2,45,Lineout,Multiphase,5,31,A,0,4,4
+881,17,Blues,Sunwolves,9,17,NZ,SA1,7,Kick Receipt,Multiphase,14,130,C,1,24,25
+882,17,Blues,Sunwolves,9,17,NZ,SA1,12,Handling Error,Handling Error,1,30,C,5,4,9
+883,17,Blues,Sunwolves,9,17,NZ,SA1,26,Intercept,Intercept,0,10,C,0,0,0
+884,17,Brumbies,Chiefs,4,6,AUS,NZ,25,Lineout,Lineout,0,10,B,0,3,3
+885,17,Bulls,Stormers,15,3,SA1,SA1,7,Kick Receipt,Kick Receipt,2,35,D,4,2,6
+886,17,Bulls,Stormers,15,3,SA1,SA1,17,Tackle Turnover,Tackle Turnover,3,43,C,0,8,8
+887,17,Bulls,Stormers,15,3,SA1,SA1,29,Lineout,Maul,0,10,B,1,2,3
+888,17,Bulls,Stormers,15,3,SA1,SA1,64,Kick Receipt,Multiphase,8,88,B,2,17,19
+889,17,Bulls,Stormers,15,3,SA1,SA1,69,Handling Error,Handling Error,0,7,C,0,0,0
+890,17,Cheetahs,Kings,13,11,SA1,SA2,67,Scrum,Scrum,2,36,A,0,5,5
+891,17,Cheetahs,Kings,13,11,SA1,SA2,69,Kick Receipt,Kick,3,41,D,1,7,8
+892,17,Chiefs,Brumbies,6,4,NZ,AUS,19,Lineout,Lineout,1,16,B,0,4,4
+893,17,Chiefs,Brumbies,6,4,NZ,AUS,42,Lineout,Lineout,3,28,A,0,7,7
+894,17,Chiefs,Brumbies,6,4,NZ,AUS,70,Kick Receipt,Multiphase,7,62,C,4,12,16
+895,17,Crusaders,Hurricanes,2,5,NZ,NZ,2,Lineout,Lineout,3,36,B,2,4,6
+896,17,Crusaders,Hurricanes,2,5,NZ,NZ,13,Scrum,Multiphase,10,73,B,1,12,13
+897,17,Crusaders,Hurricanes,2,5,NZ,NZ,55,Scrum,Scrum,0,4,A,0,1,1
+898,17,Force,Waratahs,12,16,AUS,AUS,1,Ruck Turnover,Ruck Turnover,2,21,C,1,4,5
+899,17,Force,Waratahs,12,16,AUS,AUS,12,Lineout,Maul,0,17,A,0,0,0
+900,17,Force,Waratahs,12,16,AUS,AUS,35,Scrum,Kick,0,15,B,0,1,1
+901,17,Force,Waratahs,12,16,AUS,AUS,39,Ruck Turnover,Ruck Turnover,0,11,D,0,1,1
+902,17,Force,Waratahs,12,16,AUS,AUS,44,Tackle Turnover,Tackle Turnover,0,0,A,0,0,0
+903,17,Highlanders,Reds,7,14,NZ,AUS,2,Lineout,Lineout,1,28,C,2,5,7
+904,17,Highlanders,Reds,7,14,NZ,AUS,8,Lineout,Lineout,2,36,C,0,12,12
+905,17,Highlanders,Reds,7,14,NZ,AUS,33,Scrum,Scrum,0,4,A,0,0,0
+906,17,Highlanders,Reds,7,14,NZ,AUS,42,Chargedown,Chargedown,1,15,A,0,3,3
+907,17,Highlanders,Reds,7,14,NZ,AUS,48,Scrum,Scrum,0,14,A,0,0,0
+908,17,Highlanders,Reds,7,14,NZ,AUS,64,Scrum,Scrum,2,25,A,0,4,4
+909,17,Hurricanes,Crusaders,5,2,NZ,NZ,30,Lineout,Multiphase,9,68,B,0,7,7
+910,17,Hurricanes,Crusaders,5,2,NZ,NZ,44,Lineout,Kick,7,50,A,0,4,4
+911,17,Hurricanes,Crusaders,5,2,NZ,NZ,59,Scrum,Scrum,0,6,A,0,1,1
+912,17,Hurricanes,Crusaders,5,2,NZ,NZ,64,Lineout,Lineout,3,31,A,2,5,7
+913,17,Jaguares,Rebels,10,18,SA2,AUS,33,Scrum,Scrum,0,12,A,0,2,2
+914,17,Jaguares,Rebels,10,18,SA2,AUS,58,Intercept,Intercept,0,9,B,1,0,1
+915,17,Jaguares,Rebels,10,18,SA2,AUS,64,Scrum,Scrum,3,31,A,0,5,5
+916,17,Jaguares,Rebels,10,18,SA2,AUS,70,Kick Receipt,Multiphase,4,49,C,0,8,8
+917,17,Kings,Cheetahs,11,13,SA2,SA1,19,Scrum,Scrum,0,14,A,0,1,1
+918,17,Kings,Cheetahs,11,13,SA2,SA1,35,Lineout,Maul,1,17,A,1,1,2
+919,17,Kings,Cheetahs,11,13,SA2,SA1,43,Tackle Turnover,Tackle Turnover,2,36,D,3,4,7
+920,17,Lions,Sharks,1,8,SA2,SA2,20,Lineout,Maul,0,14,A,0,0,0
+921,17,Lions,Sharks,1,8,SA2,SA2,40,Scrum,Scrum,3,49,C,4,15,19
+922,17,Lions,Sharks,1,8,SA2,SA2,63,Kick Receipt,Multiphase,4,47,C,1,8,9
+923,17,Rebels,Jaguares,18,10,AUS,SA2,24,Scrum,Scrum,0,13,C,0,4,4
+924,17,Rebels,Jaguares,18,10,AUS,SA2,80,Lineout,Multiphase,5,59,B,6,9,15
+925,17,Reds,Highlanders,14,7,AUS,NZ,38,Tap Penalty,Tap Penalty,3,17,A,1,3,4
+926,17,Reds,Highlanders,14,7,AUS,NZ,53,Lineout,Maul,0,19,A,0,0,0
+927,17,Reds,Highlanders,14,7,AUS,NZ,67,Handling Error,Handling Error,3,37,B,2,8,10
+928,17,Sharks,Lions,8,1,SA2,SA2,37,Kick Receipt,Kick Receipt,0,5,B,0,0,0
+929,17,Stormers,Bulls,3,15,SA1,SA1,9,Handling Error,Multiphase,4,47,B,0,6,6
+930,17,Stormers,Bulls,3,15,SA1,SA1,13,Scrum,Multiphase,10,92,C,1,12,13
+931,17,Stormers,Bulls,3,15,SA1,SA1,34,Handling Error,Handling Error,1,14,A,1,3,4
+932,17,Stormers,Bulls,3,15,SA1,SA1,54,Scrum,Scrum,1,22,B,1,2,3
+933,17,Stormers,Bulls,3,15,SA1,SA1,61,Kick Receipt,Kick Receipt,0,14,C,1,2,3
+934,17,Stormers,Bulls,3,15,SA1,SA1,79,Tackle Turnover,Kick,0,10,C,1,0,1
+935,17,Sunwolves,Blues,17,9,SA1,NZ,16,Tap Penalty,Multiphase,4,32,A,0,5,5
+936,17,Sunwolves,Blues,17,9,SA1,NZ,39,Lineout,Lineout,2,27,B,1,5,6
+937,17,Sunwolves,Blues,17,9,SA1,NZ,54,Tackle Turnover,Kick,1,15,B,0,2,2
+938,17,Sunwolves,Blues,17,9,SA1,NZ,58,Lineout,Maul,0,22,A,0,0,0
+939,17,Sunwolves,Blues,17,9,SA1,NZ,64,Lineout,Multiphase,4,27,A,0,4,4
+940,17,Sunwolves,Blues,17,9,SA1,NZ,69,Handling Error,Kick,0,7,B,0,1,1
+941,17,Sunwolves,Blues,17,9,SA1,NZ,76,Chargedown,Chargedown,0,1,A,0,0,0
+942,17,Sunwolves,Blues,17,9,SA1,NZ,79,Ruck Turnover,Kick,2,22,B,0,3,3
+943,17,Waratahs,Force,16,12,AUS,AUS,75,Lineout,Maul,0,4,A,0,1,1
